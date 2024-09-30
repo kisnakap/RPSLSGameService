@@ -34,7 +34,7 @@ dotnet run
 The API should now be running at http://localhost:44308/ or http://localhost:44308/index.html (or where specified in your launchSettings.json).
 
 Build and Run with Docker
-If you prefer using Docker to run the application:
+If you prefer using Docker to run the application after running project locally:
 Navigate to the project root directory (where the Dockerfile is located).
 
 Build the Docker image:
