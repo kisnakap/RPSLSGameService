@@ -13,8 +13,8 @@ Setup Instructions
 
 Clone the Repository
 Open a terminal and run the following command to clone the repository:
-git clone <repository_url>
-cd <repository_directory>
+git clone https://github.com/kisnakap/RPSLSGameService
+cd RPSLSGameService
 
 Build and Run Locally without Docker
 If you want to run the project locally without Docker, follow these steps:
@@ -26,10 +26,10 @@ dotnet restore
 Database setup:
 dotnet ef migrations add InitialCreate --project "<repository_directory>\RPSLSGameService\RPSLSGameService.Infrastructure\RPSLSGameService.Infrastructure.csproj" --startup-project "<repository_directory>\RPSLSGameService\RPSLSGameServiceAPI\RPSLSGameServiceAPI.csproj"
 
-dotnet ef database update --project "<repository_directory>\RPSLSGameService
-\RPSLSGameService.Infrastructure\RPSLSGameService.Infrastructure.csproj" --startup-project "<repository_directory>\RPSLSGameService\RPSLSGameServiceAPI\RPSLSGameServiceAPI.csproj"
+dotnet ef database update --project "<repository_directory>\RPSLSGameService\RPSLSGameService.Infrastructure\RPSLSGameService.Infrastructure.csproj" --startup-project "<repository_directory>\RPSLSGameService\RPSLSGameServiceAPI\RPSLSGameServiceAPI.csproj"
 
 Run the application:
+cd <repository_directory>\RPSLSGameService\RPSLSGameServiceAPI
 dotnet run
 The API should now be running at http://localhost:44308/ or http://localhost:44308/index.html (or where specified in your launchSettings.json).
 
