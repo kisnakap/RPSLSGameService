@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RPSLSGameServiceAPI</name>
+    </assembly>
+    <members>
+        <member name="M:RPSLSGameService.Controllers.GameController.GetChoices">
+            <summary>
+            Gets the available choices for the game.
+            </summary>
+            <returns>A list of valid game choices.</returns>
+        </member>
+        <member name="M:RPSLSGameService.Controllers.GameController.GetRandomChoice(System.Threading.CancellationToken)">
+            <summary>
+            Gets a random choice for the game.
+            </summary>
+            <param name="cancellationToken">Cancellation token to cancel the operation.</param>
+            <returns>A random choice from the available options.</returns>
+        </member>
+        <member name="M:RPSLSGameService.Controllers.GameController.PlayRound(RPSLSGameService.Domain.Models.Request.PlayRequest,System.Threading.CancellationToken)">
+            <summary>
+            Plays a round of the game with the specified player choice.
+            </summary>
+            <param name="request">The player's choice and other relevant data.</param>
+            <param name="cancellationToken">Cancellation token to cancel the operation.</param>
+            <returns>The result of the game round.</returns>
+        </member>
+        <member name="M:RPSLSGameService.Controllers.GameController.CreateSession(System.Threading.CancellationToken)">
+            <summary>
+            Creates a new game session.
+            </summary>
+            <param name="cancellationToken">Cancellation token to cancel the operation.</param>
+            <returns>A response indicating the creation of the session.</returns>
+        </member>
+        <member name="M:RPSLSGameService.Controllers.GameController.PlayMultiplayer(System.Guid,RPSLSGameService.Domain.Models.Request.MultiPlayerRequest,System.Threading.CancellationToken)">
+            <summary>
+            Plays a multiplayer game round (2 players only) with the specified session and player data.
+            </summary>
+            <param name="sessionId">The unique identifier for the game session.</param>
+            <param name="request">The player's choice and other relevant data.</param>
+            <param name="cancellationToken">Cancellation token to cancel the operation.</param>
+            <returns>The result of the multiplayer game round.</returns>
+        </member>
+        <member name="M:RPSLSGameService.Controllers.GameController.GetScoreboard(System.Threading.CancellationToken)">
+            <summary>
+            Gets the current scoreboard, which displays the most recent match results.
+            </summary>
+            <param name="cancellationToken">Cancellation token to cancel the operation.</param>
+            <returns>A list of recent match results.</returns>
+        </member>
+        <member name="M:RPSLSGameService.Controllers.GameController.ResetScoreboard(System.Threading.CancellationToken)">
+            <summary>
+            Resets the scoreboard, clearing all recorded match results.
+            </summary>
+            <param name="cancellationToken">Cancellation token to cancel the operation.</param>
+            <returns>A response indicating the outcome of the reset operation.</returns>
+        </member>
+    </members>
+</doc>

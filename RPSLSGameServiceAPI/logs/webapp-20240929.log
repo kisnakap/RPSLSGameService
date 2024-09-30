@@ -1,0 +1,1447 @@
+2024-09-29 23:06:59.696 +02:00 [INF] Starting web host...
+2024-09-29 23:07:01.206 +02:00 [DBG] Hosting starting
+2024-09-29 23:07:01.424 +02:00 [DBG] Loaded hosting startup assembly RPSLSGameServiceAPI
+2024-09-29 23:07:01.428 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-29 23:07:01.429 +02:00 [INF] Hosting environment: Development
+2024-09-29 23:07:01.430 +02:00 [INF] Content root path: C:\Users\djurd\source\repos\RPSLSGameService\RPSLSGameServiceAPI
+2024-09-29 23:07:01.430 +02:00 [DBG] Hosting started
+2024-09-29 23:07:01.446 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44308/swagger/index.html - -
+2024-09-29 23:07:01.451 +02:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-09-29 23:07:01.455 +02:00 [INF] Handling request: GET /swagger/index.html
+2024-09-29 23:07:01.460 +02:00 [DBG] The request path /swagger/index.html does not match an existing file
+2024-09-29 23:07:01.476 +02:00 [DBG] The request path /swagger/index.html does not match an existing file
+2024-09-29 23:07:01.497 +02:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-09-29 23:07:01.497 +02:00 [DBG] Request did not match any endpoints
+2024-09-29 23:07:01.498 +02:00 [INF] Finished handling request.
+2024-09-29 23:07:01.506 +02:00 [DBG] Connection ID "18302628912208805920" disconnecting.
+2024-09-29 23:07:01.509 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44308/swagger/index.html - - - 404 - - 66.3206ms
+2024-09-29 23:07:13.733 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44308/index.html - -
+2024-09-29 23:07:13.733 +02:00 [INF] Handling request: GET /index.html
+2024-09-29 23:07:13.733 +02:00 [DBG] The request path /index.html does not match an existing file
+2024-09-29 23:07:13.846 +02:00 [INF] Finished handling request.
+2024-09-29 23:07:13.847 +02:00 [DBG] Connection ID "18158513745607786502" disconnecting.
+2024-09-29 23:07:13.847 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44308/index.html - - - 200 - text/html;charset=utf-8 114.7846ms
+2024-09-29 23:07:13.950 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44308/swagger/v1/swagger.json - -
+2024-09-29 23:07:13.951 +02:00 [INF] Handling request: GET /swagger/v1/swagger.json
+2024-09-29 23:07:13.951 +02:00 [DBG] The request path /swagger/v1/swagger.json does not match an existing file
+2024-09-29 23:07:14.006 +02:00 [INF] Finished handling request.
+2024-09-29 23:07:14.006 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44308/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 56.0154ms
+2024-09-29 23:07:14.007 +02:00 [DBG] Connection ID "17798225762533244934" disconnecting.
+2024-09-29 23:07:19.981 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44308/Game/choices - -
+2024-09-29 23:07:19.982 +02:00 [INF] Handling request: GET /Game/choices
+2024-09-29 23:07:19.982 +02:00 [DBG] The request path /Game/choices does not match a supported file type
+2024-09-29 23:07:19.982 +02:00 [DBG] The request path /Game/choices does not match a supported file type
+2024-09-29 23:07:19.987 +02:00 [DBG] 1 candidate(s) found for the request path '/Game/choices'
+2024-09-29 23:07:19.991 +02:00 [DBG] Endpoint 'RPSLSGameService.Controllers.GameController.GetChoices (RPSLSGameServiceAPI)' with route pattern 'Game/choices' is valid for the request path '/Game/choices'
+2024-09-29 23:07:19.992 +02:00 [DBG] Request matched endpoint 'RPSLSGameService.Controllers.GameController.GetChoices (RPSLSGameServiceAPI)'
+2024-09-29 23:07:19.992 +02:00 [INF] Executing endpoint 'RPSLSGameService.Controllers.GameController.GetChoices (RPSLSGameServiceAPI)'
+2024-09-29 23:07:19.996 +02:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-09-29 23:07:20.012 +02:00 [INF] Route matched with {action = "GetChoices", controller = "Game"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetChoices() on controller RPSLSGameService.Controllers.GameController (RPSLSGameServiceAPI).
+2024-09-29 23:07:20.016 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-29 23:07:20.016 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-29 23:07:20.016 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-09-29 23:07:20.016 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-29 23:07:20.016 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-09-29 23:07:20.017 +02:00 [DBG] Executing controller factory for controller RPSLSGameService.Controllers.GameController (RPSLSGameServiceAPI)
+2024-09-29 23:07:20.070 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-09-29 23:07:20.091 +02:00 [INF] Executed action RPSLSGameService.Controllers.GameController.GetChoices (RPSLSGameServiceAPI) in 71.6997ms
+2024-09-29 23:07:20.092 +02:00 [INF] Executed endpoint 'RPSLSGameService.Controllers.GameController.GetChoices (RPSLSGameServiceAPI)'
+2024-09-29 23:07:20.115 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'RPSLSGameService.Application.RPSLSQueries.Interfaces.IQueryHandler`2[RPSLSGameService.Application.RPSLSQueries.Requests.GetScoreboardQuery,System.Collections.Generic.List`1[RPSLSGameService.Domain.Models.MatchResult]]' while attempting to activate 'RPSLSGameService.Controllers.GameController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean hasDefaultValue, Object key)
+   at lambda_method4(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-09-29 23:07:20.118 +02:00 [INF] Finished handling request.
+2024-09-29 23:07:20.118 +02:00 [DBG] Connection ID "18230571309580943420" disconnecting.
+2024-09-29 23:07:20.119 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44308/Game/choices - - - 500 - text/plain 137.1874ms
+2024-09-29 23:07:57.806 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44308/Game/choice - -
+2024-09-29 23:07:57.806 +02:00 [INF] Handling request: GET /Game/choice
+2024-09-29 23:07:57.806 +02:00 [DBG] The request path /Game/choice does not match a supported file type
+2024-09-29 23:07:57.806 +02:00 [DBG] The request path /Game/choice does not match a supported file type
+2024-09-29 23:07:57.808 +02:00 [DBG] 1 candidate(s) found for the request path '/Game/choice'
+2024-09-29 23:07:57.808 +02:00 [DBG] Endpoint 'RPSLSGameService.Controllers.GameController.GetRandomChoice (RPSLSGameServiceAPI)' with route pattern 'Game/choice' is valid for the request path '/Game/choice'
+2024-09-29 23:07:57.808 +02:00 [DBG] Request matched endpoint 'RPSLSGameService.Controllers.GameController.GetRandomChoice (RPSLSGameServiceAPI)'
+2024-09-29 23:07:57.808 +02:00 [INF] Executing endpoint 'RPSLSGameService.Controllers.GameController.GetRandomChoice (RPSLSGameServiceAPI)'
+2024-09-29 23:07:57.821 +02:00 [INF] Route matched with {action = "GetRandomChoice", controller = "Game"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRandomChoice(System.Threading.CancellationToken) on controller RPSLSGameService.Controllers.GameController (RPSLSGameServiceAPI).
+2024-09-29 23:07:57.821 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-29 23:07:57.821 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-29 23:07:57.821 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-09-29 23:07:57.821 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-29 23:07:57.821 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-09-29 23:07:57.821 +02:00 [DBG] Executing controller factory for controller RPSLSGameService.Controllers.GameController (RPSLSGameServiceAPI)
+2024-09-29 23:07:57.821 +02:00 [INF] Executed action RPSLSGameService.Controllers.GameController.GetRandomChoice (RPSLSGameServiceAPI) in 0.3544ms
+2024-09-29 23:07:57.821 +02:00 [INF] Executed endpoint 'RPSLSGameService.Controllers.GameController.GetRandomChoice (RPSLSGameServiceAPI)'
+2024-09-29 23:07:57.822 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'RPSLSGameService.Application.RPSLSQueries.Interfaces.IQueryHandler`2[RPSLSGameService.Application.RPSLSQueries.Requests.GetScoreboardQuery,System.Collections.Generic.List`1[RPSLSGameService.Domain.Models.MatchResult]]' while attempting to activate 'RPSLSGameService.Controllers.GameController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean hasDefaultValue, Object key)
+   at lambda_method15(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-09-29 23:07:57.823 +02:00 [INF] Finished handling request.
+2024-09-29 23:07:57.823 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44308/Game/choice - - - 500 - text/plain 16.9432ms
+2024-09-29 23:19:39.856 +02:00 [INF] Starting web host...
+2024-09-29 23:19:40.975 +02:00 [DBG] Hosting starting
+2024-09-29 23:19:41.157 +02:00 [DBG] Loaded hosting startup assembly RPSLSGameServiceAPI
+2024-09-29 23:19:41.160 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-29 23:19:41.161 +02:00 [INF] Hosting environment: Development
+2024-09-29 23:19:41.162 +02:00 [INF] Content root path: C:\Users\djurd\source\repos\RPSLSGameService\RPSLSGameServiceAPI
+2024-09-29 23:19:41.162 +02:00 [DBG] Hosting started
+2024-09-29 23:19:41.173 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44308/swagger/index.html - -
+2024-09-29 23:19:41.178 +02:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-09-29 23:19:41.181 +02:00 [INF] Handling request: GET /swagger/index.html
+2024-09-29 23:19:41.186 +02:00 [DBG] The request path /swagger/index.html does not match an existing file
+2024-09-29 23:19:41.198 +02:00 [DBG] The request path /swagger/index.html does not match an existing file
+2024-09-29 23:19:41.218 +02:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-09-29 23:19:41.218 +02:00 [DBG] Request did not match any endpoints
+2024-09-29 23:19:41.219 +02:00 [INF] Finished handling request.
+2024-09-29 23:19:41.224 +02:00 [DBG] Connection ID "18230571331055779842" disconnecting.
+2024-09-29 23:19:41.227 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44308/swagger/index.html - - - 404 - - 56.0814ms
+2024-09-29 23:19:46.353 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44308/index.html - -
+2024-09-29 23:19:46.354 +02:00 [INF] Handling request: GET /index.html
+2024-09-29 23:19:46.354 +02:00 [DBG] The request path /index.html does not match an existing file
+2024-09-29 23:19:46.500 +02:00 [INF] Finished handling request.
+2024-09-29 23:19:46.501 +02:00 [DBG] Connection ID "18230571331055779844" disconnecting.
+2024-09-29 23:19:46.501 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44308/index.html - - - 200 - text/html;charset=utf-8 147.7691ms
+2024-09-29 23:19:46.629 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44308/swagger/v1/swagger.json - -
+2024-09-29 23:19:46.629 +02:00 [INF] Handling request: GET /swagger/v1/swagger.json
+2024-09-29 23:19:46.629 +02:00 [DBG] The request path /swagger/v1/swagger.json does not match an existing file
+2024-09-29 23:19:46.685 +02:00 [INF] Finished handling request.
+2024-09-29 23:19:46.685 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44308/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 56.0292ms
+2024-09-29 23:19:46.685 +02:00 [DBG] Connection ID "18230571326760812587" disconnecting.
+2024-09-29 23:19:51.153 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44308/Game/choices - -
+2024-09-29 23:19:51.153 +02:00 [INF] Handling request: GET /Game/choices
+2024-09-29 23:19:51.153 +02:00 [DBG] The request path /Game/choices does not match a supported file type
+2024-09-29 23:19:51.153 +02:00 [DBG] The request path /Game/choices does not match a supported file type
+2024-09-29 23:19:51.158 +02:00 [DBG] 1 candidate(s) found for the request path '/Game/choices'
+2024-09-29 23:19:51.163 +02:00 [DBG] Endpoint 'RPSLSGameService.Controllers.GameController.GetChoices (RPSLSGameServiceAPI)' with route pattern 'Game/choices' is valid for the request path '/Game/choices'
+2024-09-29 23:19:51.163 +02:00 [DBG] Request matched endpoint 'RPSLSGameService.Controllers.GameController.GetChoices (RPSLSGameServiceAPI)'
+2024-09-29 23:19:51.163 +02:00 [INF] Executing endpoint 'RPSLSGameService.Controllers.GameController.GetChoices (RPSLSGameServiceAPI)'
+2024-09-29 23:19:51.168 +02:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-09-29 23:19:51.183 +02:00 [INF] Route matched with {action = "GetChoices", controller = "Game"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetChoices() on controller RPSLSGameService.Controllers.GameController (RPSLSGameServiceAPI).
+2024-09-29 23:19:51.187 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-29 23:19:51.187 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-29 23:19:51.187 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-09-29 23:19:51.187 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-29 23:19:51.187 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-09-29 23:19:51.187 +02:00 [DBG] Executing controller factory for controller RPSLSGameService.Controllers.GameController (RPSLSGameServiceAPI)
+2024-09-29 23:19:51.239 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-09-29 23:19:51.258 +02:00 [DBG] Executed controller factory for controller RPSLSGameService.Controllers.GameController (RPSLSGameServiceAPI)
+2024-09-29 23:19:51.260 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-09-29 23:19:51.261 +02:00 [DBG] No information found on request to perform content negotiation.
+2024-09-29 23:19:51.261 +02:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-09-29 23:19:51.262 +02:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-09-29 23:19:51.262 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-09-29 23:19:51.262 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectArrayIterator`2[[RPSLSGameService.Utilities.RPSLSEnum, RPSLSGameService.Utilities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[RPSLSGameService.Domain.Models.Choice, RPSLSGameService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-29 23:19:51.272 +02:00 [INF] Executed action RPSLSGameService.Controllers.GameController.GetChoices (RPSLSGameServiceAPI) in 82.229ms
+2024-09-29 23:19:51.273 +02:00 [INF] Executed endpoint 'RPSLSGameService.Controllers.GameController.GetChoices (RPSLSGameServiceAPI)'
+2024-09-29 23:19:51.273 +02:00 [INF] Finished handling request.
+2024-09-29 23:19:51.273 +02:00 [DBG] Connection ID "18230571326760812589" disconnecting.
+2024-09-29 23:19:51.273 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44308/Game/choices - - - 200 - application/json;+charset=utf-8 120.7192ms
+2024-09-29 23:20:05.826 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44308/Game/choice - -
+2024-09-29 23:20:05.827 +02:00 [INF] Handling request: GET /Game/choice
+2024-09-29 23:20:05.827 +02:00 [DBG] The request path /Game/choice does not match a supported file type
+2024-09-29 23:20:05.827 +02:00 [DBG] The request path /Game/choice does not match a supported file type
+2024-09-29 23:20:05.828 +02:00 [DBG] 1 candidate(s) found for the request path '/Game/choice'
+2024-09-29 23:20:05.828 +02:00 [DBG] Endpoint 'RPSLSGameService.Controllers.GameController.GetRandomChoice (RPSLSGameServiceAPI)' with route pattern 'Game/choice' is valid for the request path '/Game/choice'
+2024-09-29 23:20:05.828 +02:00 [DBG] Request matched endpoint 'RPSLSGameService.Controllers.GameController.GetRandomChoice (RPSLSGameServiceAPI)'
+2024-09-29 23:20:05.828 +02:00 [INF] Executing endpoint 'RPSLSGameService.Controllers.GameController.GetRandomChoice (RPSLSGameServiceAPI)'
+2024-09-29 23:20:05.838 +02:00 [INF] Route matched with {action = "GetRandomChoice", controller = "Game"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRandomChoice(System.Threading.CancellationToken) on controller RPSLSGameService.Controllers.GameController (RPSLSGameServiceAPI).
+2024-09-29 23:20:05.838 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-29 23:20:05.838 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-29 23:20:05.838 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-09-29 23:20:05.838 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-29 23:20:05.838 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-09-29 23:20:05.838 +02:00 [DBG] Executing controller factory for controller RPSLSGameService.Controllers.GameController (RPSLSGameServiceAPI)
+2024-09-29 23:20:05.838 +02:00 [DBG] Executed controller factory for controller RPSLSGameService.Controllers.GameController (RPSLSGameServiceAPI)
+2024-09-29 23:20:05.841 +02:00 [DBG] Attempting to bind parameter 'cancellationToken' of type 'System.Threading.CancellationToken' ...
+2024-09-29 23:20:05.842 +02:00 [DBG] Done attempting to bind parameter 'cancellationToken' of type 'System.Threading.CancellationToken'.
+2024-09-29 23:20:05.842 +02:00 [DBG] Attempting to validate the bound parameter 'cancellationToken' of type 'System.Threading.CancellationToken' ...
+2024-09-29 23:20:05.842 +02:00 [DBG] Done attempting to validate the bound parameter 'cancellationToken' of type 'System.Threading.CancellationToken'.
+2024-09-29 23:20:05.860 +02:00 [INF] Start processing HTTP request GET https://codechallenge.boohma.com/random
+2024-09-29 23:20:05.861 +02:00 [INF] Sending HTTP request GET https://codechallenge.boohma.com/random
+2024-09-29 23:20:06.700 +02:00 [INF] Received HTTP response headers after 834.9569ms - 200
+2024-09-29 23:20:06.700 +02:00 [INF] End processing HTTP request after 844.7771ms - 200
+2024-09-29 23:20:06.718 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-09-29 23:20:06.718 +02:00 [DBG] No information found on request to perform content negotiation.
+2024-09-29 23:20:06.718 +02:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-09-29 23:20:06.718 +02:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-09-29 23:20:06.718 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-09-29 23:20:06.718 +02:00 [INF] Executing OkObjectResult, writing value of type 'RPSLSGameService.Domain.Models.Choice'.
+2024-09-29 23:20:06.719 +02:00 [INF] Executed action RPSLSGameService.Controllers.GameController.GetRandomChoice (RPSLSGameServiceAPI) in 880.9215ms
+2024-09-29 23:20:06.719 +02:00 [INF] Executed endpoint 'RPSLSGameService.Controllers.GameController.GetRandomChoice (RPSLSGameServiceAPI)'
+2024-09-29 23:20:06.720 +02:00 [INF] Finished handling request.
+2024-09-29 23:20:06.720 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44308/Game/choice - - - 200 - application/json;+charset=utf-8 893.6071ms
+2024-09-29 23:20:32.659 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44308/Game/play application/json 28
+2024-09-29 23:20:32.660 +02:00 [DBG] The request has an origin header: 'https://localhost:44308'.
+2024-09-29 23:20:32.661 +02:00 [INF] CORS policy execution successful.
+2024-09-29 23:20:32.661 +02:00 [INF] Handling request: POST /Game/play
+2024-09-29 23:20:32.661 +02:00 [DBG] POST requests are not supported
+2024-09-29 23:20:32.661 +02:00 [DBG] POST requests are not supported
+2024-09-29 23:20:32.661 +02:00 [DBG] 1 candidate(s) found for the request path '/Game/play'
+2024-09-29 23:20:32.661 +02:00 [DBG] Endpoint 'RPSLSGameService.Controllers.GameController.PlayRound (RPSLSGameServiceAPI)' with route pattern 'Game/play' is valid for the request path '/Game/play'
+2024-09-29 23:20:32.661 +02:00 [DBG] Request matched endpoint 'RPSLSGameService.Controllers.GameController.PlayRound (RPSLSGameServiceAPI)'
+2024-09-29 23:20:32.661 +02:00 [INF] Executing endpoint 'RPSLSGameService.Controllers.GameController.PlayRound (RPSLSGameServiceAPI)'
+2024-09-29 23:20:32.664 +02:00 [INF] Route matched with {action = "PlayRound", controller = "Game"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PlayRound(RPSLSGameService.Domain.Models.PlayRequest, System.Threading.CancellationToken) on controller RPSLSGameService.Controllers.GameController (RPSLSGameServiceAPI).
+2024-09-29 23:20:32.664 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-29 23:20:32.664 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-29 23:20:32.664 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-09-29 23:20:32.664 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-29 23:20:32.664 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-09-29 23:20:32.664 +02:00 [DBG] Executing controller factory for controller RPSLSGameService.Controllers.GameController (RPSLSGameServiceAPI)
+2024-09-29 23:20:32.667 +02:00 [DBG] Executed controller factory for controller RPSLSGameService.Controllers.GameController (RPSLSGameServiceAPI)
+2024-09-29 23:20:32.667 +02:00 [DBG] Attempting to bind parameter 'request' of type 'RPSLSGameService.Domain.Models.PlayRequest' ...
+2024-09-29 23:20:32.667 +02:00 [DBG] Attempting to bind parameter 'request' of type 'RPSLSGameService.Domain.Models.PlayRequest' using the name '' in request data ...
+2024-09-29 23:20:32.668 +02:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-09-29 23:20:32.672 +02:00 [DBG] JSON input formatter succeeded, deserializing to type 'RPSLSGameService.Domain.Models.PlayRequest'
+2024-09-29 23:20:32.672 +02:00 [DBG] Done attempting to bind parameter 'request' of type 'RPSLSGameService.Domain.Models.PlayRequest'.
+2024-09-29 23:20:32.673 +02:00 [DBG] Done attempting to bind parameter 'request' of type 'RPSLSGameService.Domain.Models.PlayRequest'.
+2024-09-29 23:20:32.673 +02:00 [DBG] Attempting to validate the bound parameter 'request' of type 'RPSLSGameService.Domain.Models.PlayRequest' ...
+2024-09-29 23:20:32.674 +02:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'RPSLSGameService.Domain.Models.PlayRequest'.
+2024-09-29 23:20:32.674 +02:00 [DBG] Attempting to bind parameter 'cancellationToken' of type 'System.Threading.CancellationToken' ...
+2024-09-29 23:20:32.674 +02:00 [DBG] Done attempting to bind parameter 'cancellationToken' of type 'System.Threading.CancellationToken'.
+2024-09-29 23:20:32.674 +02:00 [DBG] Attempting to validate the bound parameter 'cancellationToken' of type 'System.Threading.CancellationToken' ...
+2024-09-29 23:20:32.674 +02:00 [DBG] Done attempting to validate the bound parameter 'cancellationToken' of type 'System.Threading.CancellationToken'.
+2024-09-29 23:20:32.675 +02:00 [INF] Executing game round for player choice: "Rock".
+2024-09-29 23:20:32.676 +02:00 [INF] Start processing HTTP request GET https://codechallenge.boohma.com/random
+2024-09-29 23:20:32.676 +02:00 [INF] Sending HTTP request GET https://codechallenge.boohma.com/random
+2024-09-29 23:20:32.846 +02:00 [INF] Received HTTP response headers after 170.5126ms - 200
+2024-09-29 23:20:32.846 +02:00 [INF] End processing HTTP request after 170.7039ms - 200
+2024-09-29 23:20:32.847 +02:00 [INF] Computer choice: "Rock".
+2024-09-29 23:20:32.847 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-09-29 23:20:32.847 +02:00 [DBG] No information found on request to perform content negotiation.
+2024-09-29 23:20:32.848 +02:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-09-29 23:20:32.848 +02:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-09-29 23:20:32.848 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-09-29 23:20:32.848 +02:00 [INF] Executing OkObjectResult, writing value of type 'RPSLSGameService.Domain.Models.PlayRoundResponse'.
+2024-09-29 23:20:32.849 +02:00 [INF] Executed action RPSLSGameService.Controllers.GameController.PlayRound (RPSLSGameServiceAPI) in 184.8392ms
+2024-09-29 23:20:32.849 +02:00 [INF] Executed endpoint 'RPSLSGameService.Controllers.GameController.PlayRound (RPSLSGameServiceAPI)'
+2024-09-29 23:20:32.849 +02:00 [INF] Finished handling request.
+2024-09-29 23:20:32.849 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44308/Game/play application/json 28 - 200 - application/json;+charset=utf-8 190.3962ms
+2024-09-29 23:20:32.849 +02:00 [DBG] Connection ID "18374686510541701228" disconnecting.
+2024-09-29 23:21:04.316 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44308/Game/createSession - 0
+2024-09-29 23:21:04.316 +02:00 [DBG] The request has an origin header: 'https://localhost:44308'.
+2024-09-29 23:21:04.316 +02:00 [INF] CORS policy execution successful.
+2024-09-29 23:21:04.316 +02:00 [INF] Handling request: POST /Game/createSession
+2024-09-29 23:21:04.316 +02:00 [DBG] POST requests are not supported
+2024-09-29 23:21:04.316 +02:00 [DBG] POST requests are not supported
+2024-09-29 23:21:04.316 +02:00 [DBG] 1 candidate(s) found for the request path '/Game/createSession'
+2024-09-29 23:21:04.316 +02:00 [DBG] Endpoint 'RPSLSGameService.Controllers.GameController.CreateSession (RPSLSGameServiceAPI)' with route pattern 'Game/createSession' is valid for the request path '/Game/createSession'
+2024-09-29 23:21:04.317 +02:00 [DBG] Request matched endpoint 'RPSLSGameService.Controllers.GameController.CreateSession (RPSLSGameServiceAPI)'
+2024-09-29 23:21:04.317 +02:00 [INF] Executing endpoint 'RPSLSGameService.Controllers.GameController.CreateSession (RPSLSGameServiceAPI)'
+2024-09-29 23:21:04.319 +02:00 [INF] Route matched with {action = "CreateSession", controller = "Game"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateSession(System.Threading.CancellationToken) on controller RPSLSGameService.Controllers.GameController (RPSLSGameServiceAPI).
+2024-09-29 23:21:04.319 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-29 23:21:04.319 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-29 23:21:04.319 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-09-29 23:21:04.319 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-29 23:21:04.319 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-09-29 23:21:04.319 +02:00 [DBG] Executing controller factory for controller RPSLSGameService.Controllers.GameController (RPSLSGameServiceAPI)
+2024-09-29 23:21:04.319 +02:00 [DBG] Executed controller factory for controller RPSLSGameService.Controllers.GameController (RPSLSGameServiceAPI)
+2024-09-29 23:21:04.319 +02:00 [DBG] Attempting to bind parameter 'cancellationToken' of type 'System.Threading.CancellationToken' ...
+2024-09-29 23:21:04.319 +02:00 [DBG] Done attempting to bind parameter 'cancellationToken' of type 'System.Threading.CancellationToken'.
+2024-09-29 23:21:04.319 +02:00 [DBG] Attempting to validate the bound parameter 'cancellationToken' of type 'System.Threading.CancellationToken' ...
+2024-09-29 23:21:04.319 +02:00 [DBG] Done attempting to validate the bound parameter 'cancellationToken' of type 'System.Threading.CancellationToken'.
+2024-09-29 23:21:04.734 +02:00 [INF] Entity Framework Core 5.0.17 initialized 'RPSLSDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: MigrationsAssembly=RPSLSGameService.Infrastructure 
+2024-09-29 23:21:04.788 +02:00 [DBG] Context 'RPSLSDbContext' started tracking 'GameSession' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-29 23:21:04.790 +02:00 [DBG] SaveChanges starting for 'RPSLSDbContext'.
+2024-09-29 23:21:04.793 +02:00 [DBG] DetectChanges starting for 'RPSLSDbContext'.
+2024-09-29 23:21:04.801 +02:00 [DBG] DetectChanges completed for 'RPSLSDbContext'.
+2024-09-29 23:21:04.987 +02:00 [DBG] Opening connection to database 'main' on server 'RPSLSGame.db'.
+2024-09-29 23:21:05.002 +02:00 [DBG] Opened connection to database 'main' on server 'C:\Users\djurd\source\repos\RPSLSGameService\RPSLSGameServiceAPI\RPSLSGame.db'.
+2024-09-29 23:21:05.002 +02:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2024-09-29 23:21:05.016 +02:00 [DBG] Began transaction with isolation level 'Serializable'.
+2024-09-29 23:21:05.044 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-29 23:21:05.048 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-29 23:21:05.055 +02:00 [DBG] Executing DbCommand [Parameters=[@p0='?', @p1='?', @p2='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "GameSessions" ("SessionId", "CreatedAt", "CurrentState")
+VALUES (@p0, @p1, @p2);
+2024-09-29 23:21:05.062 +02:00 [INF] Executed DbCommand (8ms) [Parameters=[@p0='?', @p1='?', @p2='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "GameSessions" ("SessionId", "CreatedAt", "CurrentState")
+VALUES (@p0, @p1, @p2);
+2024-09-29 23:21:05.065 +02:00 [DBG] A data reader was disposed.
+2024-09-29 23:21:05.068 +02:00 [DBG] Committing transaction.
+2024-09-29 23:21:05.072 +02:00 [DBG] Committed transaction.
+2024-09-29 23:21:05.073 +02:00 [DBG] Closing connection to database 'main' on server 'C:\Users\djurd\source\repos\RPSLSGameService\RPSLSGameServiceAPI\RPSLSGame.db'.
+2024-09-29 23:21:05.075 +02:00 [DBG] Closed connection to database 'main' on server 'RPSLSGame.db'.
+2024-09-29 23:21:05.076 +02:00 [DBG] Disposing transaction.
+2024-09-29 23:21:05.083 +02:00 [DBG] An entity of type 'GameSession' tracked by 'RPSLSDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-29 23:21:05.083 +02:00 [DBG] SaveChanges completed for 'RPSLSDbContext' with 1 entities written to the database.
+2024-09-29 23:21:05.083 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-09-29 23:21:05.084 +02:00 [DBG] No information found on request to perform content negotiation.
+2024-09-29 23:21:05.084 +02:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-09-29 23:21:05.084 +02:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-09-29 23:21:05.084 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-09-29 23:21:05.084 +02:00 [INF] Executing OkObjectResult, writing value of type 'RPSLSGameService.Domain.Models.CreateSessionResponse'.
+2024-09-29 23:21:05.086 +02:00 [INF] Executed action RPSLSGameService.Controllers.GameController.CreateSession (RPSLSGameServiceAPI) in 767.2374ms
+2024-09-29 23:21:05.086 +02:00 [INF] Executed endpoint 'RPSLSGameService.Controllers.GameController.CreateSession (RPSLSGameServiceAPI)'
+2024-09-29 23:21:05.086 +02:00 [INF] Finished handling request.
+2024-09-29 23:21:05.087 +02:00 [DBG] Connection ID "18374686506246733869" disconnecting.
+2024-09-29 23:21:05.087 +02:00 [DBG] 'RPSLSDbContext' disposed.
+2024-09-29 23:21:05.088 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44308/Game/createSession - 0 - 200 - application/json;+charset=utf-8 771.8454ms
+2024-09-29 23:21:31.682 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44308/Game/playMulti?sessionId=9110e05c-f8a9-4469-b0a1-a2848cb4e88c application/json 28
+2024-09-29 23:21:31.682 +02:00 [DBG] The request has an origin header: 'https://localhost:44308'.
+2024-09-29 23:21:31.682 +02:00 [INF] CORS policy execution successful.
+2024-09-29 23:21:31.682 +02:00 [INF] Handling request: POST /Game/playMulti
+2024-09-29 23:21:31.682 +02:00 [DBG] POST requests are not supported
+2024-09-29 23:21:31.682 +02:00 [DBG] POST requests are not supported
+2024-09-29 23:21:31.682 +02:00 [DBG] 1 candidate(s) found for the request path '/Game/playMulti'
+2024-09-29 23:21:31.682 +02:00 [DBG] Endpoint 'RPSLSGameService.Controllers.GameController.PlayMultiplayer (RPSLSGameServiceAPI)' with route pattern 'Game/playMulti' is valid for the request path '/Game/playMulti'
+2024-09-29 23:21:31.682 +02:00 [DBG] Request matched endpoint 'RPSLSGameService.Controllers.GameController.PlayMultiplayer (RPSLSGameServiceAPI)'
+2024-09-29 23:21:31.682 +02:00 [INF] Executing endpoint 'RPSLSGameService.Controllers.GameController.PlayMultiplayer (RPSLSGameServiceAPI)'
+2024-09-29 23:21:31.685 +02:00 [INF] Route matched with {action = "PlayMultiplayer", controller = "Game"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PlayMultiplayer(System.Guid, RPSLSGameService.Domain.Models.MultiPlayerRequest, System.Threading.CancellationToken) on controller RPSLSGameService.Controllers.GameController (RPSLSGameServiceAPI).
+2024-09-29 23:21:31.685 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-29 23:21:31.685 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-29 23:21:31.685 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-09-29 23:21:31.685 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-29 23:21:31.685 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-09-29 23:21:31.685 +02:00 [DBG] Executing controller factory for controller RPSLSGameService.Controllers.GameController (RPSLSGameServiceAPI)
+2024-09-29 23:21:31.685 +02:00 [DBG] Executed controller factory for controller RPSLSGameService.Controllers.GameController (RPSLSGameServiceAPI)
+2024-09-29 23:21:31.685 +02:00 [DBG] Attempting to bind parameter 'sessionId' of type 'System.Guid' ...
+2024-09-29 23:21:31.686 +02:00 [DBG] Attempting to bind parameter 'sessionId' of type 'System.Guid' using the name 'sessionId' in request data ...
+2024-09-29 23:21:31.687 +02:00 [DBG] Done attempting to bind parameter 'sessionId' of type 'System.Guid'.
+2024-09-29 23:21:31.687 +02:00 [DBG] Done attempting to bind parameter 'sessionId' of type 'System.Guid'.
+2024-09-29 23:21:31.687 +02:00 [DBG] Attempting to validate the bound parameter 'sessionId' of type 'System.Guid' ...
+2024-09-29 23:21:31.687 +02:00 [DBG] Done attempting to validate the bound parameter 'sessionId' of type 'System.Guid'.
+2024-09-29 23:21:31.687 +02:00 [DBG] Attempting to bind parameter 'request' of type 'RPSLSGameService.Domain.Models.MultiPlayerRequest' ...
+2024-09-29 23:21:31.687 +02:00 [DBG] Attempting to bind parameter 'request' of type 'RPSLSGameService.Domain.Models.MultiPlayerRequest' using the name '' in request data ...
+2024-09-29 23:21:31.687 +02:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-09-29 23:21:31.690 +02:00 [DBG] JSON input formatter succeeded, deserializing to type 'RPSLSGameService.Domain.Models.MultiPlayerRequest'
+2024-09-29 23:21:31.690 +02:00 [DBG] Done attempting to bind parameter 'request' of type 'RPSLSGameService.Domain.Models.MultiPlayerRequest'.
+2024-09-29 23:21:31.690 +02:00 [DBG] Done attempting to bind parameter 'request' of type 'RPSLSGameService.Domain.Models.MultiPlayerRequest'.
+2024-09-29 23:21:31.690 +02:00 [DBG] Attempting to validate the bound parameter 'request' of type 'RPSLSGameService.Domain.Models.MultiPlayerRequest' ...
+2024-09-29 23:21:31.691 +02:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'RPSLSGameService.Domain.Models.MultiPlayerRequest'.
+2024-09-29 23:21:31.691 +02:00 [DBG] Attempting to bind parameter 'cancellationToken' of type 'System.Threading.CancellationToken' ...
+2024-09-29 23:21:31.691 +02:00 [DBG] Done attempting to bind parameter 'cancellationToken' of type 'System.Threading.CancellationToken'.
+2024-09-29 23:21:31.691 +02:00 [DBG] Attempting to validate the bound parameter 'cancellationToken' of type 'System.Threading.CancellationToken' ...
+2024-09-29 23:21:31.691 +02:00 [DBG] Done attempting to validate the bound parameter 'cancellationToken' of type 'System.Threading.CancellationToken'.
+2024-09-29 23:21:31.717 +02:00 [INF] Entity Framework Core 5.0.17 initialized 'RPSLSDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: MigrationsAssembly=RPSLSGameService.Infrastructure 
+2024-09-29 23:21:31.750 +02:00 [DBG] Compiling query expression: 
+'DbSet<GameSession>()
+    .Include(gsm => gsm.MatchResults)
+    .Include(gsp => gsp.Players)
+    .FirstOrDefault(gs => gs.SessionId == __sessionId_0)'
+2024-09-29 23:21:31.779 +02:00 [DBG] Including navigation: 'GameSession.MatchResults'.
+2024-09-29 23:21:31.780 +02:00 [DBG] Including navigation: 'GameSession.Players'.
+2024-09-29 23:21:31.881 +02:00 [WRN] Compiling a query which loads related collections for more than one collection navigation either via 'Include' or through projection but no 'QuerySplittingBehavior' has been configured. By default Entity Framework will use 'QuerySplittingBehavior.SingleQuery' which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'
+2024-09-29 23:21:31.919 +02:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<GameSession>(
+    asyncEnumerable: new SingleQueryingEnumerable<GameSession>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+            SELECT t.SessionId, t.CreatedAt, t.CurrentState, m.Id, m.Player1Choice, m.Player2Choice, m.ResultDate, m.SessionId, m.WinnerName, p.Name, p.GameSessionId, p.Choice
+            FROM Projection Mapping:
+            (
+                SELECT TOP(1) g.SessionId, g.CreatedAt, g.CurrentState
+                FROM GameSessions AS g
+                WHERE g.SessionId == @__sessionId_0
+            ) AS t
+            LEFT JOIN MatchResults AS m ON t.SessionId == m.SessionId
+            LEFT JOIN Players AS p ON t.SessionId == p.GameSessionId
+            ORDER BY t.SessionId ASC, m.Id ASC, p.Name ASC, p.GameSessionId ASC), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, GameSession>, 
+        RPSLSGameService.Infrastructure.RPSLSDbContext, 
+        False, 
+        False
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2024-09-29 23:21:31.936 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-29 23:21:31.936 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-29 23:21:31.936 +02:00 [DBG] Opening connection to database 'main' on server 'RPSLSGame.db'.
+2024-09-29 23:21:31.936 +02:00 [DBG] Opened connection to database 'main' on server 'C:\Users\djurd\source\repos\RPSLSGameService\RPSLSGameServiceAPI\RPSLSGame.db'.
+2024-09-29 23:21:31.937 +02:00 [DBG] Executing DbCommand [Parameters=[@__sessionId_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."SessionId", "t"."CreatedAt", "t"."CurrentState", "m"."Id", "m"."Player1Choice", "m"."Player2Choice", "m"."ResultDate", "m"."SessionId", "m"."WinnerName", "p"."Name", "p"."GameSessionId", "p"."Choice"
+FROM (
+    SELECT "g"."SessionId", "g"."CreatedAt", "g"."CurrentState"
+    FROM "GameSessions" AS "g"
+    WHERE "g"."SessionId" = @__sessionId_0
+    LIMIT 1
+) AS "t"
+LEFT JOIN "MatchResults" AS "m" ON "t"."SessionId" = "m"."SessionId"
+LEFT JOIN "Players" AS "p" ON "t"."SessionId" = "p"."GameSessionId"
+ORDER BY "t"."SessionId", "m"."Id", "p"."Name", "p"."GameSessionId"
+2024-09-29 23:21:31.938 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@__sessionId_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."SessionId", "t"."CreatedAt", "t"."CurrentState", "m"."Id", "m"."Player1Choice", "m"."Player2Choice", "m"."ResultDate", "m"."SessionId", "m"."WinnerName", "p"."Name", "p"."GameSessionId", "p"."Choice"
+FROM (
+    SELECT "g"."SessionId", "g"."CreatedAt", "g"."CurrentState"
+    FROM "GameSessions" AS "g"
+    WHERE "g"."SessionId" = @__sessionId_0
+    LIMIT 1
+) AS "t"
+LEFT JOIN "MatchResults" AS "m" ON "t"."SessionId" = "m"."SessionId"
+LEFT JOIN "Players" AS "p" ON "t"."SessionId" = "p"."GameSessionId"
+ORDER BY "t"."SessionId", "m"."Id", "p"."Name", "p"."GameSessionId"
+2024-09-29 23:21:31.942 +02:00 [DBG] Context 'RPSLSDbContext' started tracking 'GameSession' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-29 23:21:31.945 +02:00 [DBG] A data reader was disposed.
+2024-09-29 23:21:31.946 +02:00 [DBG] Closing connection to database 'main' on server 'C:\Users\djurd\source\repos\RPSLSGameService\RPSLSGameServiceAPI\RPSLSGame.db'.
+2024-09-29 23:21:31.946 +02:00 [DBG] Closed connection to database 'main' on server 'RPSLSGame.db'.
+2024-09-29 23:21:31.946 +02:00 [INF] Adding player aaa to the session: "9110e05c-f8a9-4469-b0a1-a2848cb4e88c".
+2024-09-29 23:21:31.960 +02:00 [DBG] Context 'RPSLSDbContext' started tracking 'Player' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-29 23:21:31.961 +02:00 [DBG] SaveChanges starting for 'RPSLSDbContext'.
+2024-09-29 23:21:31.961 +02:00 [DBG] DetectChanges starting for 'RPSLSDbContext'.
+2024-09-29 23:21:31.968 +02:00 [DBG] 1 entities were added and 0 entities were removed from navigation 'GameSession.Players'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-29 23:21:31.971 +02:00 [DBG] DetectChanges completed for 'RPSLSDbContext'.
+2024-09-29 23:21:31.971 +02:00 [DBG] Opening connection to database 'main' on server 'RPSLSGame.db'.
+2024-09-29 23:21:31.971 +02:00 [DBG] Opened connection to database 'main' on server 'C:\Users\djurd\source\repos\RPSLSGameService\RPSLSGameServiceAPI\RPSLSGame.db'.
+2024-09-29 23:21:31.971 +02:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2024-09-29 23:21:31.972 +02:00 [DBG] Began transaction with isolation level 'Serializable'.
+2024-09-29 23:21:31.973 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-29 23:21:31.973 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-29 23:21:31.973 +02:00 [DBG] Executing DbCommand [Parameters=[@p0='?', @p1='?' (Size = 3), @p2='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Players" ("GameSessionId", "Name", "Choice")
+VALUES (@p0, @p1, @p2);
+2024-09-29 23:21:31.974 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?', @p1='?' (Size = 3), @p2='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Players" ("GameSessionId", "Name", "Choice")
+VALUES (@p0, @p1, @p2);
+2024-09-29 23:21:31.974 +02:00 [DBG] A data reader was disposed.
+2024-09-29 23:21:31.974 +02:00 [DBG] Committing transaction.
+2024-09-29 23:21:31.975 +02:00 [DBG] Committed transaction.
+2024-09-29 23:21:31.975 +02:00 [DBG] Closing connection to database 'main' on server 'C:\Users\djurd\source\repos\RPSLSGameService\RPSLSGameServiceAPI\RPSLSGame.db'.
+2024-09-29 23:21:31.975 +02:00 [DBG] Closed connection to database 'main' on server 'RPSLSGame.db'.
+2024-09-29 23:21:31.975 +02:00 [DBG] Disposing transaction.
+2024-09-29 23:21:31.976 +02:00 [DBG] An entity of type 'Player' tracked by 'RPSLSDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-29 23:21:31.976 +02:00 [DBG] SaveChanges completed for 'RPSLSDbContext' with 1 entities written to the database.
+2024-09-29 23:21:31.976 +02:00 [DBG] An entity of type 'GameSession' tracked by 'RPSLSDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-29 23:21:31.976 +02:00 [DBG] SaveChanges starting for 'RPSLSDbContext'.
+2024-09-29 23:21:31.976 +02:00 [DBG] DetectChanges starting for 'RPSLSDbContext'.
+2024-09-29 23:21:31.976 +02:00 [DBG] DetectChanges completed for 'RPSLSDbContext'.
+2024-09-29 23:21:31.976 +02:00 [DBG] Opening connection to database 'main' on server 'RPSLSGame.db'.
+2024-09-29 23:21:31.977 +02:00 [DBG] Opened connection to database 'main' on server 'C:\Users\djurd\source\repos\RPSLSGameService\RPSLSGameServiceAPI\RPSLSGame.db'.
+2024-09-29 23:21:31.977 +02:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2024-09-29 23:21:31.981 +02:00 [DBG] Began transaction with isolation level 'Serializable'.
+2024-09-29 23:21:31.982 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-29 23:21:31.982 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-29 23:21:31.982 +02:00 [DBG] Executing DbCommand [Parameters=[@p2='?', @p0='?', @p1='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "GameSessions" SET "CreatedAt" = @p0, "CurrentState" = @p1
+WHERE "SessionId" = @p2;
+SELECT changes();
+2024-09-29 23:21:31.983 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@p2='?', @p0='?', @p1='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "GameSessions" SET "CreatedAt" = @p0, "CurrentState" = @p1
+WHERE "SessionId" = @p2;
+SELECT changes();
+2024-09-29 23:21:31.984 +02:00 [DBG] A data reader was disposed.
+2024-09-29 23:21:31.984 +02:00 [DBG] Committing transaction.
+2024-09-29 23:21:31.984 +02:00 [DBG] Committed transaction.
+2024-09-29 23:21:31.984 +02:00 [DBG] Closing connection to database 'main' on server 'C:\Users\djurd\source\repos\RPSLSGameService\RPSLSGameServiceAPI\RPSLSGame.db'.
+2024-09-29 23:21:31.985 +02:00 [DBG] Closed connection to database 'main' on server 'RPSLSGame.db'.
+2024-09-29 23:21:31.985 +02:00 [DBG] Disposing transaction.
+2024-09-29 23:21:31.985 +02:00 [DBG] An entity of type 'GameSession' tracked by 'RPSLSDbContext' changed state from '"Modified"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-29 23:21:31.985 +02:00 [DBG] SaveChanges completed for 'RPSLSDbContext' with 1 entities written to the database.
+2024-09-29 23:21:31.985 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-09-29 23:21:31.985 +02:00 [DBG] No information found on request to perform content negotiation.
+2024-09-29 23:21:31.985 +02:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-09-29 23:21:31.985 +02:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-09-29 23:21:31.985 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-09-29 23:21:31.985 +02:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-09-29 23:21:31.988 +02:00 [INF] Executed action RPSLSGameService.Controllers.GameController.PlayMultiplayer (RPSLSGameServiceAPI) in 302.9357ms
+2024-09-29 23:21:31.988 +02:00 [INF] Executed endpoint 'RPSLSGameService.Controllers.GameController.PlayMultiplayer (RPSLSGameServiceAPI)'
+2024-09-29 23:21:31.988 +02:00 [INF] Finished handling request.
+2024-09-29 23:21:31.988 +02:00 [DBG] 'RPSLSDbContext' disposed.
+2024-09-29 23:21:31.988 +02:00 [DBG] Connection ID "18374686484771897392" disconnecting.
+2024-09-29 23:21:31.988 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44308/Game/playMulti?sessionId=9110e05c-f8a9-4469-b0a1-a2848cb4e88c application/json 28 - 200 - application/json;+charset=utf-8 306.4587ms
+2024-09-29 23:21:39.896 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44308/Game/playMulti?sessionId=9110e05c-f8a9-4469-b0a1-a2848cb4e88c application/json 28
+2024-09-29 23:21:39.896 +02:00 [DBG] The request has an origin header: 'https://localhost:44308'.
+2024-09-29 23:21:39.896 +02:00 [INF] CORS policy execution successful.
+2024-09-29 23:21:39.897 +02:00 [INF] Handling request: POST /Game/playMulti
+2024-09-29 23:21:39.897 +02:00 [DBG] POST requests are not supported
+2024-09-29 23:21:39.897 +02:00 [DBG] POST requests are not supported
+2024-09-29 23:21:39.897 +02:00 [DBG] 1 candidate(s) found for the request path '/Game/playMulti'
+2024-09-29 23:21:39.897 +02:00 [DBG] Endpoint 'RPSLSGameService.Controllers.GameController.PlayMultiplayer (RPSLSGameServiceAPI)' with route pattern 'Game/playMulti' is valid for the request path '/Game/playMulti'
+2024-09-29 23:21:39.897 +02:00 [DBG] Request matched endpoint 'RPSLSGameService.Controllers.GameController.PlayMultiplayer (RPSLSGameServiceAPI)'
+2024-09-29 23:21:39.897 +02:00 [INF] Executing endpoint 'RPSLSGameService.Controllers.GameController.PlayMultiplayer (RPSLSGameServiceAPI)'
+2024-09-29 23:21:39.897 +02:00 [INF] Route matched with {action = "PlayMultiplayer", controller = "Game"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PlayMultiplayer(System.Guid, RPSLSGameService.Domain.Models.MultiPlayerRequest, System.Threading.CancellationToken) on controller RPSLSGameService.Controllers.GameController (RPSLSGameServiceAPI).
+2024-09-29 23:21:39.897 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-29 23:21:39.897 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-29 23:21:39.897 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-09-29 23:21:39.897 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-29 23:21:39.897 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-09-29 23:21:39.897 +02:00 [DBG] Executing controller factory for controller RPSLSGameService.Controllers.GameController (RPSLSGameServiceAPI)
+2024-09-29 23:21:39.897 +02:00 [DBG] Executed controller factory for controller RPSLSGameService.Controllers.GameController (RPSLSGameServiceAPI)
+2024-09-29 23:21:39.897 +02:00 [DBG] Attempting to bind parameter 'sessionId' of type 'System.Guid' ...
+2024-09-29 23:21:39.897 +02:00 [DBG] Attempting to bind parameter 'sessionId' of type 'System.Guid' using the name 'sessionId' in request data ...
+2024-09-29 23:21:39.897 +02:00 [DBG] Done attempting to bind parameter 'sessionId' of type 'System.Guid'.
+2024-09-29 23:21:39.898 +02:00 [DBG] Done attempting to bind parameter 'sessionId' of type 'System.Guid'.
+2024-09-29 23:21:39.898 +02:00 [DBG] Attempting to validate the bound parameter 'sessionId' of type 'System.Guid' ...
+2024-09-29 23:21:39.898 +02:00 [DBG] Done attempting to validate the bound parameter 'sessionId' of type 'System.Guid'.
+2024-09-29 23:21:39.898 +02:00 [DBG] Attempting to bind parameter 'request' of type 'RPSLSGameService.Domain.Models.MultiPlayerRequest' ...
+2024-09-29 23:21:39.898 +02:00 [DBG] Attempting to bind parameter 'request' of type 'RPSLSGameService.Domain.Models.MultiPlayerRequest' using the name '' in request data ...
+2024-09-29 23:21:39.898 +02:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-09-29 23:21:39.898 +02:00 [DBG] JSON input formatter succeeded, deserializing to type 'RPSLSGameService.Domain.Models.MultiPlayerRequest'
+2024-09-29 23:21:39.898 +02:00 [DBG] Done attempting to bind parameter 'request' of type 'RPSLSGameService.Domain.Models.MultiPlayerRequest'.
+2024-09-29 23:21:39.898 +02:00 [DBG] Done attempting to bind parameter 'request' of type 'RPSLSGameService.Domain.Models.MultiPlayerRequest'.
+2024-09-29 23:21:39.898 +02:00 [DBG] Attempting to validate the bound parameter 'request' of type 'RPSLSGameService.Domain.Models.MultiPlayerRequest' ...
+2024-09-29 23:21:39.898 +02:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'RPSLSGameService.Domain.Models.MultiPlayerRequest'.
+2024-09-29 23:21:39.899 +02:00 [DBG] Attempting to bind parameter 'cancellationToken' of type 'System.Threading.CancellationToken' ...
+2024-09-29 23:21:39.899 +02:00 [DBG] Done attempting to bind parameter 'cancellationToken' of type 'System.Threading.CancellationToken'.
+2024-09-29 23:21:39.899 +02:00 [DBG] Attempting to validate the bound parameter 'cancellationToken' of type 'System.Threading.CancellationToken' ...
+2024-09-29 23:21:39.899 +02:00 [DBG] Done attempting to validate the bound parameter 'cancellationToken' of type 'System.Threading.CancellationToken'.
+2024-09-29 23:21:39.906 +02:00 [INF] Entity Framework Core 5.0.17 initialized 'RPSLSDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: MigrationsAssembly=RPSLSGameService.Infrastructure 
+2024-09-29 23:21:39.908 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-29 23:21:39.908 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-29 23:21:39.908 +02:00 [DBG] Opening connection to database 'main' on server 'RPSLSGame.db'.
+2024-09-29 23:21:39.908 +02:00 [DBG] Opened connection to database 'main' on server 'C:\Users\djurd\source\repos\RPSLSGameService\RPSLSGameServiceAPI\RPSLSGame.db'.
+2024-09-29 23:21:39.908 +02:00 [DBG] Executing DbCommand [Parameters=[@__sessionId_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."SessionId", "t"."CreatedAt", "t"."CurrentState", "m"."Id", "m"."Player1Choice", "m"."Player2Choice", "m"."ResultDate", "m"."SessionId", "m"."WinnerName", "p"."Name", "p"."GameSessionId", "p"."Choice"
+FROM (
+    SELECT "g"."SessionId", "g"."CreatedAt", "g"."CurrentState"
+    FROM "GameSessions" AS "g"
+    WHERE "g"."SessionId" = @__sessionId_0
+    LIMIT 1
+) AS "t"
+LEFT JOIN "MatchResults" AS "m" ON "t"."SessionId" = "m"."SessionId"
+LEFT JOIN "Players" AS "p" ON "t"."SessionId" = "p"."GameSessionId"
+ORDER BY "t"."SessionId", "m"."Id", "p"."Name", "p"."GameSessionId"
+2024-09-29 23:21:39.909 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__sessionId_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."SessionId", "t"."CreatedAt", "t"."CurrentState", "m"."Id", "m"."Player1Choice", "m"."Player2Choice", "m"."ResultDate", "m"."SessionId", "m"."WinnerName", "p"."Name", "p"."GameSessionId", "p"."Choice"
+FROM (
+    SELECT "g"."SessionId", "g"."CreatedAt", "g"."CurrentState"
+    FROM "GameSessions" AS "g"
+    WHERE "g"."SessionId" = @__sessionId_0
+    LIMIT 1
+) AS "t"
+LEFT JOIN "MatchResults" AS "m" ON "t"."SessionId" = "m"."SessionId"
+LEFT JOIN "Players" AS "p" ON "t"."SessionId" = "p"."GameSessionId"
+ORDER BY "t"."SessionId", "m"."Id", "p"."Name", "p"."GameSessionId"
+2024-09-29 23:21:39.909 +02:00 [DBG] Context 'RPSLSDbContext' started tracking 'GameSession' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-29 23:21:39.910 +02:00 [DBG] Context 'RPSLSDbContext' started tracking 'Player' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-29 23:21:39.910 +02:00 [DBG] A data reader was disposed.
+2024-09-29 23:21:39.910 +02:00 [DBG] Closing connection to database 'main' on server 'C:\Users\djurd\source\repos\RPSLSGameService\RPSLSGameServiceAPI\RPSLSGame.db'.
+2024-09-29 23:21:39.911 +02:00 [DBG] Closed connection to database 'main' on server 'RPSLSGame.db'.
+2024-09-29 23:21:39.911 +02:00 [INF] Adding player bbb to the session: "9110e05c-f8a9-4469-b0a1-a2848cb4e88c".
+2024-09-29 23:21:39.911 +02:00 [DBG] Context 'RPSLSDbContext' started tracking 'Player' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-29 23:21:39.911 +02:00 [DBG] SaveChanges starting for 'RPSLSDbContext'.
+2024-09-29 23:21:39.911 +02:00 [DBG] DetectChanges starting for 'RPSLSDbContext'.
+2024-09-29 23:21:39.912 +02:00 [DBG] The unchanged property 'GameSession.CurrentState' was detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-09-29 23:21:39.912 +02:00 [DBG] An entity of type 'GameSession' tracked by 'RPSLSDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-29 23:21:39.912 +02:00 [DBG] 1 entities were added and 0 entities were removed from navigation 'GameSession.Players'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-29 23:21:39.912 +02:00 [DBG] DetectChanges completed for 'RPSLSDbContext'.
+2024-09-29 23:21:39.912 +02:00 [DBG] Opening connection to database 'main' on server 'RPSLSGame.db'.
+2024-09-29 23:21:39.912 +02:00 [DBG] Opened connection to database 'main' on server 'C:\Users\djurd\source\repos\RPSLSGameService\RPSLSGameServiceAPI\RPSLSGame.db'.
+2024-09-29 23:21:39.912 +02:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2024-09-29 23:21:39.913 +02:00 [DBG] Began transaction with isolation level 'Serializable'.
+2024-09-29 23:21:39.914 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-29 23:21:39.914 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-29 23:21:39.914 +02:00 [DBG] Executing DbCommand [Parameters=[@p1='?', @p0='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "GameSessions" SET "CurrentState" = @p0
+WHERE "SessionId" = @p1;
+SELECT changes();
+2024-09-29 23:21:39.914 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[@p1='?', @p0='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "GameSessions" SET "CurrentState" = @p0
+WHERE "SessionId" = @p1;
+SELECT changes();
+2024-09-29 23:21:39.914 +02:00 [DBG] A data reader was disposed.
+2024-09-29 23:21:39.914 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-29 23:21:39.914 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-29 23:21:39.914 +02:00 [DBG] Executing DbCommand [Parameters=[@p0='?', @p1='?' (Size = 3), @p2='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Players" ("GameSessionId", "Name", "Choice")
+VALUES (@p0, @p1, @p2);
+2024-09-29 23:21:39.914 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?', @p1='?' (Size = 3), @p2='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Players" ("GameSessionId", "Name", "Choice")
+VALUES (@p0, @p1, @p2);
+2024-09-29 23:21:39.914 +02:00 [DBG] A data reader was disposed.
+2024-09-29 23:21:39.914 +02:00 [DBG] Committing transaction.
+2024-09-29 23:21:39.922 +02:00 [DBG] Committed transaction.
+2024-09-29 23:21:39.922 +02:00 [DBG] Closing connection to database 'main' on server 'C:\Users\djurd\source\repos\RPSLSGameService\RPSLSGameServiceAPI\RPSLSGame.db'.
+2024-09-29 23:21:39.922 +02:00 [DBG] Closed connection to database 'main' on server 'RPSLSGame.db'.
+2024-09-29 23:21:39.922 +02:00 [DBG] Disposing transaction.
+2024-09-29 23:21:39.922 +02:00 [DBG] An entity of type 'Player' tracked by 'RPSLSDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-29 23:21:39.922 +02:00 [DBG] An entity of type 'GameSession' tracked by 'RPSLSDbContext' changed state from '"Modified"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-29 23:21:39.922 +02:00 [DBG] SaveChanges completed for 'RPSLSDbContext' with 2 entities written to the database.
+2024-09-29 23:21:39.922 +02:00 [DBG] An entity of type 'GameSession' tracked by 'RPSLSDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-29 23:21:39.922 +02:00 [DBG] SaveChanges starting for 'RPSLSDbContext'.
+2024-09-29 23:21:39.922 +02:00 [DBG] DetectChanges starting for 'RPSLSDbContext'.
+2024-09-29 23:21:39.922 +02:00 [DBG] DetectChanges completed for 'RPSLSDbContext'.
+2024-09-29 23:21:39.922 +02:00 [DBG] Opening connection to database 'main' on server 'RPSLSGame.db'.
+2024-09-29 23:21:39.923 +02:00 [DBG] Opened connection to database 'main' on server 'C:\Users\djurd\source\repos\RPSLSGameService\RPSLSGameServiceAPI\RPSLSGame.db'.
+2024-09-29 23:21:39.923 +02:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2024-09-29 23:21:39.927 +02:00 [DBG] Began transaction with isolation level 'Serializable'.
+2024-09-29 23:21:39.928 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-29 23:21:39.928 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-29 23:21:39.928 +02:00 [DBG] Executing DbCommand [Parameters=[@p2='?', @p0='?', @p1='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "GameSessions" SET "CreatedAt" = @p0, "CurrentState" = @p1
+WHERE "SessionId" = @p2;
+SELECT changes();
+2024-09-29 23:21:39.928 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[@p2='?', @p0='?', @p1='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "GameSessions" SET "CreatedAt" = @p0, "CurrentState" = @p1
+WHERE "SessionId" = @p2;
+SELECT changes();
+2024-09-29 23:21:39.928 +02:00 [DBG] A data reader was disposed.
+2024-09-29 23:21:39.928 +02:00 [DBG] Committing transaction.
+2024-09-29 23:21:39.928 +02:00 [DBG] Committed transaction.
+2024-09-29 23:21:39.928 +02:00 [DBG] Closing connection to database 'main' on server 'C:\Users\djurd\source\repos\RPSLSGameService\RPSLSGameServiceAPI\RPSLSGame.db'.
+2024-09-29 23:21:39.928 +02:00 [DBG] Closed connection to database 'main' on server 'RPSLSGame.db'.
+2024-09-29 23:21:39.928 +02:00 [DBG] Disposing transaction.
+2024-09-29 23:21:39.928 +02:00 [DBG] An entity of type 'GameSession' tracked by 'RPSLSDbContext' changed state from '"Modified"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-29 23:21:39.928 +02:00 [DBG] SaveChanges completed for 'RPSLSDbContext' with 1 entities written to the database.
+2024-09-29 23:21:39.928 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-09-29 23:21:39.928 +02:00 [DBG] No information found on request to perform content negotiation.
+2024-09-29 23:21:39.929 +02:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-09-29 23:21:39.929 +02:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-09-29 23:21:39.929 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-09-29 23:21:39.929 +02:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-09-29 23:21:39.929 +02:00 [INF] Executed action RPSLSGameService.Controllers.GameController.PlayMultiplayer (RPSLSGameServiceAPI) in 31.7366ms
+2024-09-29 23:21:39.929 +02:00 [INF] Executed endpoint 'RPSLSGameService.Controllers.GameController.PlayMultiplayer (RPSLSGameServiceAPI)'
+2024-09-29 23:21:39.929 +02:00 [INF] Finished handling request.
+2024-09-29 23:21:39.929 +02:00 [DBG] 'RPSLSDbContext' disposed.
+2024-09-29 23:21:39.929 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44308/Game/playMulti?sessionId=9110e05c-f8a9-4469-b0a1-a2848cb4e88c application/json 28 - 200 - application/json;+charset=utf-8 32.4825ms
+2024-09-29 23:21:48.828 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44308/Game/playMulti?sessionId=9110e05c-f8a9-4469-b0a1-a2848cb4e88c application/json 25
+2024-09-29 23:21:48.828 +02:00 [DBG] The request has an origin header: 'https://localhost:44308'.
+2024-09-29 23:21:48.828 +02:00 [INF] CORS policy execution successful.
+2024-09-29 23:21:48.828 +02:00 [INF] Handling request: POST /Game/playMulti
+2024-09-29 23:21:48.828 +02:00 [DBG] POST requests are not supported
+2024-09-29 23:21:48.828 +02:00 [DBG] POST requests are not supported
+2024-09-29 23:21:48.829 +02:00 [DBG] 1 candidate(s) found for the request path '/Game/playMulti'
+2024-09-29 23:21:48.829 +02:00 [DBG] Endpoint 'RPSLSGameService.Controllers.GameController.PlayMultiplayer (RPSLSGameServiceAPI)' with route pattern 'Game/playMulti' is valid for the request path '/Game/playMulti'
+2024-09-29 23:21:48.829 +02:00 [DBG] Request matched endpoint 'RPSLSGameService.Controllers.GameController.PlayMultiplayer (RPSLSGameServiceAPI)'
+2024-09-29 23:21:48.829 +02:00 [INF] Executing endpoint 'RPSLSGameService.Controllers.GameController.PlayMultiplayer (RPSLSGameServiceAPI)'
+2024-09-29 23:21:48.829 +02:00 [INF] Route matched with {action = "PlayMultiplayer", controller = "Game"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PlayMultiplayer(System.Guid, RPSLSGameService.Domain.Models.MultiPlayerRequest, System.Threading.CancellationToken) on controller RPSLSGameService.Controllers.GameController (RPSLSGameServiceAPI).
+2024-09-29 23:21:48.829 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-29 23:21:48.829 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-29 23:21:48.829 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-09-29 23:21:48.829 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-29 23:21:48.829 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-09-29 23:21:48.829 +02:00 [DBG] Executing controller factory for controller RPSLSGameService.Controllers.GameController (RPSLSGameServiceAPI)
+2024-09-29 23:21:48.829 +02:00 [DBG] Executed controller factory for controller RPSLSGameService.Controllers.GameController (RPSLSGameServiceAPI)
+2024-09-29 23:21:48.829 +02:00 [DBG] Attempting to bind parameter 'sessionId' of type 'System.Guid' ...
+2024-09-29 23:21:48.829 +02:00 [DBG] Attempting to bind parameter 'sessionId' of type 'System.Guid' using the name 'sessionId' in request data ...
+2024-09-29 23:21:48.829 +02:00 [DBG] Done attempting to bind parameter 'sessionId' of type 'System.Guid'.
+2024-09-29 23:21:48.829 +02:00 [DBG] Done attempting to bind parameter 'sessionId' of type 'System.Guid'.
+2024-09-29 23:21:48.829 +02:00 [DBG] Attempting to validate the bound parameter 'sessionId' of type 'System.Guid' ...
+2024-09-29 23:21:48.829 +02:00 [DBG] Done attempting to validate the bound parameter 'sessionId' of type 'System.Guid'.
+2024-09-29 23:21:48.829 +02:00 [DBG] Attempting to bind parameter 'request' of type 'RPSLSGameService.Domain.Models.MultiPlayerRequest' ...
+2024-09-29 23:21:48.829 +02:00 [DBG] Attempting to bind parameter 'request' of type 'RPSLSGameService.Domain.Models.MultiPlayerRequest' using the name '' in request data ...
+2024-09-29 23:21:48.829 +02:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-09-29 23:21:48.829 +02:00 [DBG] JSON input formatter succeeded, deserializing to type 'RPSLSGameService.Domain.Models.MultiPlayerRequest'
+2024-09-29 23:21:48.829 +02:00 [DBG] Done attempting to bind parameter 'request' of type 'RPSLSGameService.Domain.Models.MultiPlayerRequest'.
+2024-09-29 23:21:48.829 +02:00 [DBG] Done attempting to bind parameter 'request' of type 'RPSLSGameService.Domain.Models.MultiPlayerRequest'.
+2024-09-29 23:21:48.829 +02:00 [DBG] Attempting to validate the bound parameter 'request' of type 'RPSLSGameService.Domain.Models.MultiPlayerRequest' ...
+2024-09-29 23:21:48.829 +02:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'RPSLSGameService.Domain.Models.MultiPlayerRequest'.
+2024-09-29 23:21:48.829 +02:00 [DBG] Attempting to bind parameter 'cancellationToken' of type 'System.Threading.CancellationToken' ...
+2024-09-29 23:21:48.830 +02:00 [DBG] Done attempting to bind parameter 'cancellationToken' of type 'System.Threading.CancellationToken'.
+2024-09-29 23:21:48.830 +02:00 [DBG] Attempting to validate the bound parameter 'cancellationToken' of type 'System.Threading.CancellationToken' ...
+2024-09-29 23:21:48.830 +02:00 [DBG] Done attempting to validate the bound parameter 'cancellationToken' of type 'System.Threading.CancellationToken'.
+2024-09-29 23:21:48.830 +02:00 [INF] Entity Framework Core 5.0.17 initialized 'RPSLSDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: MigrationsAssembly=RPSLSGameService.Infrastructure 
+2024-09-29 23:21:48.830 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-29 23:21:48.830 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-29 23:21:48.830 +02:00 [DBG] Opening connection to database 'main' on server 'RPSLSGame.db'.
+2024-09-29 23:21:48.831 +02:00 [DBG] Opened connection to database 'main' on server 'C:\Users\djurd\source\repos\RPSLSGameService\RPSLSGameServiceAPI\RPSLSGame.db'.
+2024-09-29 23:21:48.831 +02:00 [DBG] Executing DbCommand [Parameters=[@__sessionId_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."SessionId", "t"."CreatedAt", "t"."CurrentState", "m"."Id", "m"."Player1Choice", "m"."Player2Choice", "m"."ResultDate", "m"."SessionId", "m"."WinnerName", "p"."Name", "p"."GameSessionId", "p"."Choice"
+FROM (
+    SELECT "g"."SessionId", "g"."CreatedAt", "g"."CurrentState"
+    FROM "GameSessions" AS "g"
+    WHERE "g"."SessionId" = @__sessionId_0
+    LIMIT 1
+) AS "t"
+LEFT JOIN "MatchResults" AS "m" ON "t"."SessionId" = "m"."SessionId"
+LEFT JOIN "Players" AS "p" ON "t"."SessionId" = "p"."GameSessionId"
+ORDER BY "t"."SessionId", "m"."Id", "p"."Name", "p"."GameSessionId"
+2024-09-29 23:21:48.832 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__sessionId_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."SessionId", "t"."CreatedAt", "t"."CurrentState", "m"."Id", "m"."Player1Choice", "m"."Player2Choice", "m"."ResultDate", "m"."SessionId", "m"."WinnerName", "p"."Name", "p"."GameSessionId", "p"."Choice"
+FROM (
+    SELECT "g"."SessionId", "g"."CreatedAt", "g"."CurrentState"
+    FROM "GameSessions" AS "g"
+    WHERE "g"."SessionId" = @__sessionId_0
+    LIMIT 1
+) AS "t"
+LEFT JOIN "MatchResults" AS "m" ON "t"."SessionId" = "m"."SessionId"
+LEFT JOIN "Players" AS "p" ON "t"."SessionId" = "p"."GameSessionId"
+ORDER BY "t"."SessionId", "m"."Id", "p"."Name", "p"."GameSessionId"
+2024-09-29 23:21:48.832 +02:00 [DBG] Context 'RPSLSDbContext' started tracking 'GameSession' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-29 23:21:48.832 +02:00 [DBG] Context 'RPSLSDbContext' started tracking 'Player' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-29 23:21:48.832 +02:00 [DBG] Context 'RPSLSDbContext' started tracking 'Player' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-29 23:21:48.832 +02:00 [DBG] A data reader was disposed.
+2024-09-29 23:21:48.832 +02:00 [DBG] Closing connection to database 'main' on server 'C:\Users\djurd\source\repos\RPSLSGameService\RPSLSGameServiceAPI\RPSLSGame.db'.
+2024-09-29 23:21:48.832 +02:00 [DBG] Closed connection to database 'main' on server 'RPSLSGame.db'.
+2024-09-29 23:21:48.832 +02:00 [INF] Executing game round for player aaa choice: "Spock".
+2024-09-29 23:21:48.834 +02:00 [DBG] An entity of type 'Player' tracked by 'RPSLSDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-29 23:21:48.834 +02:00 [DBG] SaveChanges starting for 'RPSLSDbContext'.
+2024-09-29 23:21:48.834 +02:00 [DBG] DetectChanges starting for 'RPSLSDbContext'.
+2024-09-29 23:21:48.834 +02:00 [DBG] DetectChanges completed for 'RPSLSDbContext'.
+2024-09-29 23:21:48.834 +02:00 [DBG] Opening connection to database 'main' on server 'RPSLSGame.db'.
+2024-09-29 23:21:48.834 +02:00 [DBG] Opened connection to database 'main' on server 'C:\Users\djurd\source\repos\RPSLSGameService\RPSLSGameServiceAPI\RPSLSGame.db'.
+2024-09-29 23:21:48.834 +02:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2024-09-29 23:21:48.835 +02:00 [DBG] Began transaction with isolation level 'Serializable'.
+2024-09-29 23:21:48.835 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-29 23:21:48.835 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-29 23:21:48.835 +02:00 [DBG] Executing DbCommand [Parameters=[@p1='?', @p2='?' (Size = 3), @p0='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "Players" SET "Choice" = @p0
+WHERE "GameSessionId" = @p1 AND "Name" = @p2;
+SELECT changes();
+2024-09-29 23:21:48.836 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[@p1='?', @p2='?' (Size = 3), @p0='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "Players" SET "Choice" = @p0
+WHERE "GameSessionId" = @p1 AND "Name" = @p2;
+SELECT changes();
+2024-09-29 23:21:48.836 +02:00 [DBG] A data reader was disposed.
+2024-09-29 23:21:48.836 +02:00 [DBG] Committing transaction.
+2024-09-29 23:21:48.842 +02:00 [DBG] Committed transaction.
+2024-09-29 23:21:48.842 +02:00 [DBG] Closing connection to database 'main' on server 'C:\Users\djurd\source\repos\RPSLSGameService\RPSLSGameServiceAPI\RPSLSGame.db'.
+2024-09-29 23:21:48.842 +02:00 [DBG] Closed connection to database 'main' on server 'RPSLSGame.db'.
+2024-09-29 23:21:48.842 +02:00 [DBG] Disposing transaction.
+2024-09-29 23:21:48.843 +02:00 [DBG] An entity of type 'Player' tracked by 'RPSLSDbContext' changed state from '"Modified"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-29 23:21:48.843 +02:00 [DBG] SaveChanges completed for 'RPSLSDbContext' with 1 entities written to the database.
+2024-09-29 23:21:48.843 +02:00 [DBG] An entity of type 'GameSession' tracked by 'RPSLSDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-29 23:21:48.843 +02:00 [DBG] SaveChanges starting for 'RPSLSDbContext'.
+2024-09-29 23:21:48.843 +02:00 [DBG] DetectChanges starting for 'RPSLSDbContext'.
+2024-09-29 23:21:48.844 +02:00 [DBG] DetectChanges completed for 'RPSLSDbContext'.
+2024-09-29 23:21:48.844 +02:00 [DBG] Opening connection to database 'main' on server 'RPSLSGame.db'.
+2024-09-29 23:21:48.844 +02:00 [DBG] Opened connection to database 'main' on server 'C:\Users\djurd\source\repos\RPSLSGameService\RPSLSGameServiceAPI\RPSLSGame.db'.
+2024-09-29 23:21:48.844 +02:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2024-09-29 23:21:48.849 +02:00 [DBG] Began transaction with isolation level 'Serializable'.
+2024-09-29 23:21:48.849 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-29 23:21:48.849 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-29 23:21:48.849 +02:00 [DBG] Executing DbCommand [Parameters=[@p2='?', @p0='?', @p1='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "GameSessions" SET "CreatedAt" = @p0, "CurrentState" = @p1
+WHERE "SessionId" = @p2;
+SELECT changes();
+2024-09-29 23:21:48.849 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[@p2='?', @p0='?', @p1='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "GameSessions" SET "CreatedAt" = @p0, "CurrentState" = @p1
+WHERE "SessionId" = @p2;
+SELECT changes();
+2024-09-29 23:21:48.849 +02:00 [DBG] A data reader was disposed.
+2024-09-29 23:21:48.849 +02:00 [DBG] Committing transaction.
+2024-09-29 23:21:48.849 +02:00 [DBG] Committed transaction.
+2024-09-29 23:21:48.849 +02:00 [DBG] Closing connection to database 'main' on server 'C:\Users\djurd\source\repos\RPSLSGameService\RPSLSGameServiceAPI\RPSLSGame.db'.
+2024-09-29 23:21:48.849 +02:00 [DBG] Closed connection to database 'main' on server 'RPSLSGame.db'.
+2024-09-29 23:21:48.849 +02:00 [DBG] Disposing transaction.
+2024-09-29 23:21:48.850 +02:00 [DBG] An entity of type 'GameSession' tracked by 'RPSLSDbContext' changed state from '"Modified"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-29 23:21:48.850 +02:00 [DBG] SaveChanges completed for 'RPSLSDbContext' with 1 entities written to the database.
+2024-09-29 23:21:48.850 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-09-29 23:21:48.850 +02:00 [DBG] No information found on request to perform content negotiation.
+2024-09-29 23:21:48.850 +02:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-09-29 23:21:48.850 +02:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-09-29 23:21:48.850 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-09-29 23:21:48.850 +02:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-09-29 23:21:48.850 +02:00 [INF] Executed action RPSLSGameService.Controllers.GameController.PlayMultiplayer (RPSLSGameServiceAPI) in 21.0867ms
+2024-09-29 23:21:48.850 +02:00 [INF] Executed endpoint 'RPSLSGameService.Controllers.GameController.PlayMultiplayer (RPSLSGameServiceAPI)'
+2024-09-29 23:21:48.850 +02:00 [INF] Finished handling request.
+2024-09-29 23:21:48.850 +02:00 [DBG] 'RPSLSDbContext' disposed.
+2024-09-29 23:21:48.850 +02:00 [DBG] Connection ID "18230571326760812593" disconnecting.
+2024-09-29 23:21:48.850 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44308/Game/playMulti?sessionId=9110e05c-f8a9-4469-b0a1-a2848cb4e88c application/json 25 - 200 - application/json;+charset=utf-8 21.7814ms
+2024-09-29 23:22:01.215 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44308/Game/playMulti?sessionId=9110e05c-f8a9-4469-b0a1-a2848cb4e88c application/json 25
+2024-09-29 23:22:01.215 +02:00 [DBG] The request has an origin header: 'https://localhost:44308'.
+2024-09-29 23:22:01.215 +02:00 [INF] CORS policy execution successful.
+2024-09-29 23:22:01.215 +02:00 [INF] Handling request: POST /Game/playMulti
+2024-09-29 23:22:01.215 +02:00 [DBG] POST requests are not supported
+2024-09-29 23:22:01.215 +02:00 [DBG] POST requests are not supported
+2024-09-29 23:22:01.215 +02:00 [DBG] 1 candidate(s) found for the request path '/Game/playMulti'
+2024-09-29 23:22:01.215 +02:00 [DBG] Endpoint 'RPSLSGameService.Controllers.GameController.PlayMultiplayer (RPSLSGameServiceAPI)' with route pattern 'Game/playMulti' is valid for the request path '/Game/playMulti'
+2024-09-29 23:22:01.215 +02:00 [DBG] Request matched endpoint 'RPSLSGameService.Controllers.GameController.PlayMultiplayer (RPSLSGameServiceAPI)'
+2024-09-29 23:22:01.215 +02:00 [INF] Executing endpoint 'RPSLSGameService.Controllers.GameController.PlayMultiplayer (RPSLSGameServiceAPI)'
+2024-09-29 23:22:01.215 +02:00 [INF] Route matched with {action = "PlayMultiplayer", controller = "Game"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PlayMultiplayer(System.Guid, RPSLSGameService.Domain.Models.MultiPlayerRequest, System.Threading.CancellationToken) on controller RPSLSGameService.Controllers.GameController (RPSLSGameServiceAPI).
+2024-09-29 23:22:01.215 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-29 23:22:01.215 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-29 23:22:01.215 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-09-29 23:22:01.215 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-29 23:22:01.215 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-09-29 23:22:01.215 +02:00 [DBG] Executing controller factory for controller RPSLSGameService.Controllers.GameController (RPSLSGameServiceAPI)
+2024-09-29 23:22:01.215 +02:00 [DBG] Executed controller factory for controller RPSLSGameService.Controllers.GameController (RPSLSGameServiceAPI)
+2024-09-29 23:22:01.215 +02:00 [DBG] Attempting to bind parameter 'sessionId' of type 'System.Guid' ...
+2024-09-29 23:22:01.215 +02:00 [DBG] Attempting to bind parameter 'sessionId' of type 'System.Guid' using the name 'sessionId' in request data ...
+2024-09-29 23:22:01.215 +02:00 [DBG] Done attempting to bind parameter 'sessionId' of type 'System.Guid'.
+2024-09-29 23:22:01.215 +02:00 [DBG] Done attempting to bind parameter 'sessionId' of type 'System.Guid'.
+2024-09-29 23:22:01.215 +02:00 [DBG] Attempting to validate the bound parameter 'sessionId' of type 'System.Guid' ...
+2024-09-29 23:22:01.215 +02:00 [DBG] Done attempting to validate the bound parameter 'sessionId' of type 'System.Guid'.
+2024-09-29 23:22:01.215 +02:00 [DBG] Attempting to bind parameter 'request' of type 'RPSLSGameService.Domain.Models.MultiPlayerRequest' ...
+2024-09-29 23:22:01.216 +02:00 [DBG] Attempting to bind parameter 'request' of type 'RPSLSGameService.Domain.Models.MultiPlayerRequest' using the name '' in request data ...
+2024-09-29 23:22:01.216 +02:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-09-29 23:22:01.216 +02:00 [DBG] JSON input formatter succeeded, deserializing to type 'RPSLSGameService.Domain.Models.MultiPlayerRequest'
+2024-09-29 23:22:01.216 +02:00 [DBG] Done attempting to bind parameter 'request' of type 'RPSLSGameService.Domain.Models.MultiPlayerRequest'.
+2024-09-29 23:22:01.216 +02:00 [DBG] Done attempting to bind parameter 'request' of type 'RPSLSGameService.Domain.Models.MultiPlayerRequest'.
+2024-09-29 23:22:01.216 +02:00 [DBG] Attempting to validate the bound parameter 'request' of type 'RPSLSGameService.Domain.Models.MultiPlayerRequest' ...
+2024-09-29 23:22:01.216 +02:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'RPSLSGameService.Domain.Models.MultiPlayerRequest'.
+2024-09-29 23:22:01.216 +02:00 [DBG] Attempting to bind parameter 'cancellationToken' of type 'System.Threading.CancellationToken' ...
+2024-09-29 23:22:01.219 +02:00 [DBG] Done attempting to bind parameter 'cancellationToken' of type 'System.Threading.CancellationToken'.
+2024-09-29 23:22:01.219 +02:00 [DBG] Attempting to validate the bound parameter 'cancellationToken' of type 'System.Threading.CancellationToken' ...
+2024-09-29 23:22:01.219 +02:00 [DBG] Done attempting to validate the bound parameter 'cancellationToken' of type 'System.Threading.CancellationToken'.
+2024-09-29 23:22:01.219 +02:00 [INF] Entity Framework Core 5.0.17 initialized 'RPSLSDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: MigrationsAssembly=RPSLSGameService.Infrastructure 
+2024-09-29 23:22:01.219 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-29 23:22:01.219 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-29 23:22:01.219 +02:00 [DBG] Opening connection to database 'main' on server 'RPSLSGame.db'.
+2024-09-29 23:22:01.220 +02:00 [DBG] Opened connection to database 'main' on server 'C:\Users\djurd\source\repos\RPSLSGameService\RPSLSGameServiceAPI\RPSLSGame.db'.
+2024-09-29 23:22:01.220 +02:00 [DBG] Executing DbCommand [Parameters=[@__sessionId_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."SessionId", "t"."CreatedAt", "t"."CurrentState", "m"."Id", "m"."Player1Choice", "m"."Player2Choice", "m"."ResultDate", "m"."SessionId", "m"."WinnerName", "p"."Name", "p"."GameSessionId", "p"."Choice"
+FROM (
+    SELECT "g"."SessionId", "g"."CreatedAt", "g"."CurrentState"
+    FROM "GameSessions" AS "g"
+    WHERE "g"."SessionId" = @__sessionId_0
+    LIMIT 1
+) AS "t"
+LEFT JOIN "MatchResults" AS "m" ON "t"."SessionId" = "m"."SessionId"
+LEFT JOIN "Players" AS "p" ON "t"."SessionId" = "p"."GameSessionId"
+ORDER BY "t"."SessionId", "m"."Id", "p"."Name", "p"."GameSessionId"
+2024-09-29 23:22:01.221 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__sessionId_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."SessionId", "t"."CreatedAt", "t"."CurrentState", "m"."Id", "m"."Player1Choice", "m"."Player2Choice", "m"."ResultDate", "m"."SessionId", "m"."WinnerName", "p"."Name", "p"."GameSessionId", "p"."Choice"
+FROM (
+    SELECT "g"."SessionId", "g"."CreatedAt", "g"."CurrentState"
+    FROM "GameSessions" AS "g"
+    WHERE "g"."SessionId" = @__sessionId_0
+    LIMIT 1
+) AS "t"
+LEFT JOIN "MatchResults" AS "m" ON "t"."SessionId" = "m"."SessionId"
+LEFT JOIN "Players" AS "p" ON "t"."SessionId" = "p"."GameSessionId"
+ORDER BY "t"."SessionId", "m"."Id", "p"."Name", "p"."GameSessionId"
+2024-09-29 23:22:01.221 +02:00 [DBG] Context 'RPSLSDbContext' started tracking 'GameSession' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-29 23:22:01.221 +02:00 [DBG] Context 'RPSLSDbContext' started tracking 'Player' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-29 23:22:01.221 +02:00 [DBG] Context 'RPSLSDbContext' started tracking 'Player' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-29 23:22:01.221 +02:00 [DBG] A data reader was disposed.
+2024-09-29 23:22:01.221 +02:00 [DBG] Closing connection to database 'main' on server 'C:\Users\djurd\source\repos\RPSLSGameService\RPSLSGameServiceAPI\RPSLSGame.db'.
+2024-09-29 23:22:01.221 +02:00 [DBG] Closed connection to database 'main' on server 'RPSLSGame.db'.
+2024-09-29 23:22:01.221 +02:00 [INF] Executing game round for player bbb choice: "Rock".
+2024-09-29 23:22:01.222 +02:00 [DBG] An entity of type 'Player' tracked by 'RPSLSDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-29 23:22:01.222 +02:00 [DBG] SaveChanges starting for 'RPSLSDbContext'.
+2024-09-29 23:22:01.222 +02:00 [DBG] DetectChanges starting for 'RPSLSDbContext'.
+2024-09-29 23:22:01.222 +02:00 [DBG] The unchanged property 'GameSession.CurrentState' was detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-09-29 23:22:01.222 +02:00 [DBG] An entity of type 'GameSession' tracked by 'RPSLSDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-29 23:22:01.222 +02:00 [DBG] DetectChanges completed for 'RPSLSDbContext'.
+2024-09-29 23:22:01.222 +02:00 [DBG] Opening connection to database 'main' on server 'RPSLSGame.db'.
+2024-09-29 23:22:01.222 +02:00 [DBG] Opened connection to database 'main' on server 'C:\Users\djurd\source\repos\RPSLSGameService\RPSLSGameServiceAPI\RPSLSGame.db'.
+2024-09-29 23:22:01.222 +02:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2024-09-29 23:22:01.223 +02:00 [DBG] Began transaction with isolation level 'Serializable'.
+2024-09-29 23:22:01.223 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-29 23:22:01.223 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-29 23:22:01.223 +02:00 [DBG] Executing DbCommand [Parameters=[@p1='?', @p0='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "GameSessions" SET "CurrentState" = @p0
+WHERE "SessionId" = @p1;
+SELECT changes();
+2024-09-29 23:22:01.224 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[@p1='?', @p0='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "GameSessions" SET "CurrentState" = @p0
+WHERE "SessionId" = @p1;
+SELECT changes();
+2024-09-29 23:22:01.224 +02:00 [DBG] A data reader was disposed.
+2024-09-29 23:22:01.224 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-29 23:22:01.224 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-29 23:22:01.224 +02:00 [DBG] Executing DbCommand [Parameters=[@p1='?', @p2='?' (Size = 3), @p0='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "Players" SET "Choice" = @p0
+WHERE "GameSessionId" = @p1 AND "Name" = @p2;
+SELECT changes();
+2024-09-29 23:22:01.224 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[@p1='?', @p2='?' (Size = 3), @p0='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "Players" SET "Choice" = @p0
+WHERE "GameSessionId" = @p1 AND "Name" = @p2;
+SELECT changes();
+2024-09-29 23:22:01.224 +02:00 [DBG] A data reader was disposed.
+2024-09-29 23:22:01.224 +02:00 [DBG] Committing transaction.
+2024-09-29 23:22:01.226 +02:00 [DBG] Committed transaction.
+2024-09-29 23:22:01.226 +02:00 [DBG] Closing connection to database 'main' on server 'C:\Users\djurd\source\repos\RPSLSGameService\RPSLSGameServiceAPI\RPSLSGame.db'.
+2024-09-29 23:22:01.226 +02:00 [DBG] Closed connection to database 'main' on server 'RPSLSGame.db'.
+2024-09-29 23:22:01.226 +02:00 [DBG] Disposing transaction.
+2024-09-29 23:22:01.226 +02:00 [DBG] An entity of type 'Player' tracked by 'RPSLSDbContext' changed state from '"Modified"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-29 23:22:01.226 +02:00 [DBG] An entity of type 'GameSession' tracked by 'RPSLSDbContext' changed state from '"Modified"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-29 23:22:01.226 +02:00 [DBG] SaveChanges completed for 'RPSLSDbContext' with 2 entities written to the database.
+2024-09-29 23:22:01.226 +02:00 [DBG] An entity of type 'GameSession' tracked by 'RPSLSDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-29 23:22:01.226 +02:00 [DBG] SaveChanges starting for 'RPSLSDbContext'.
+2024-09-29 23:22:01.226 +02:00 [DBG] DetectChanges starting for 'RPSLSDbContext'.
+2024-09-29 23:22:01.226 +02:00 [DBG] DetectChanges completed for 'RPSLSDbContext'.
+2024-09-29 23:22:01.226 +02:00 [DBG] Opening connection to database 'main' on server 'RPSLSGame.db'.
+2024-09-29 23:22:01.227 +02:00 [DBG] Opened connection to database 'main' on server 'C:\Users\djurd\source\repos\RPSLSGameService\RPSLSGameServiceAPI\RPSLSGame.db'.
+2024-09-29 23:22:01.227 +02:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2024-09-29 23:22:01.232 +02:00 [DBG] Began transaction with isolation level 'Serializable'.
+2024-09-29 23:22:01.232 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-29 23:22:01.232 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-29 23:22:01.232 +02:00 [DBG] Executing DbCommand [Parameters=[@p2='?', @p0='?', @p1='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "GameSessions" SET "CreatedAt" = @p0, "CurrentState" = @p1
+WHERE "SessionId" = @p2;
+SELECT changes();
+2024-09-29 23:22:01.232 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[@p2='?', @p0='?', @p1='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "GameSessions" SET "CreatedAt" = @p0, "CurrentState" = @p1
+WHERE "SessionId" = @p2;
+SELECT changes();
+2024-09-29 23:22:01.232 +02:00 [DBG] A data reader was disposed.
+2024-09-29 23:22:01.232 +02:00 [DBG] Committing transaction.
+2024-09-29 23:22:01.232 +02:00 [DBG] Committed transaction.
+2024-09-29 23:22:01.232 +02:00 [DBG] Closing connection to database 'main' on server 'C:\Users\djurd\source\repos\RPSLSGameService\RPSLSGameServiceAPI\RPSLSGame.db'.
+2024-09-29 23:22:01.233 +02:00 [DBG] Closed connection to database 'main' on server 'RPSLSGame.db'.
+2024-09-29 23:22:01.233 +02:00 [DBG] Disposing transaction.
+2024-09-29 23:22:01.233 +02:00 [DBG] An entity of type 'GameSession' tracked by 'RPSLSDbContext' changed state from '"Modified"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-29 23:22:01.233 +02:00 [DBG] SaveChanges completed for 'RPSLSDbContext' with 1 entities written to the database.
+2024-09-29 23:22:01.249 +02:00 [DBG] Context 'RPSLSDbContext' started tracking 'MatchResult' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-29 23:22:01.249 +02:00 [DBG] SaveChanges starting for 'RPSLSDbContext'.
+2024-09-29 23:22:01.249 +02:00 [DBG] DetectChanges starting for 'RPSLSDbContext'.
+2024-09-29 23:22:01.250 +02:00 [DBG] The unchanged property 'GameSession.CurrentState' was detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-09-29 23:22:01.250 +02:00 [DBG] An entity of type 'GameSession' tracked by 'RPSLSDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-29 23:22:01.251 +02:00 [DBG] 1 entities were added and 0 entities were removed from navigation 'GameSession.MatchResults'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-29 23:22:01.251 +02:00 [DBG] DetectChanges completed for 'RPSLSDbContext'.
+2024-09-29 23:22:01.251 +02:00 [DBG] Opening connection to database 'main' on server 'RPSLSGame.db'.
+2024-09-29 23:22:01.251 +02:00 [DBG] Opened connection to database 'main' on server 'C:\Users\djurd\source\repos\RPSLSGameService\RPSLSGameServiceAPI\RPSLSGame.db'.
+2024-09-29 23:22:01.251 +02:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2024-09-29 23:22:01.252 +02:00 [DBG] Began transaction with isolation level 'Serializable'.
+2024-09-29 23:22:01.252 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-29 23:22:01.252 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-29 23:22:01.252 +02:00 [DBG] Executing DbCommand [Parameters=[@p1='?', @p0='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "GameSessions" SET "CurrentState" = @p0
+WHERE "SessionId" = @p1;
+SELECT changes();
+2024-09-29 23:22:01.252 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[@p1='?', @p0='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "GameSessions" SET "CurrentState" = @p0
+WHERE "SessionId" = @p1;
+SELECT changes();
+2024-09-29 23:22:01.252 +02:00 [DBG] A data reader was disposed.
+2024-09-29 23:22:01.252 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-29 23:22:01.252 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-29 23:22:01.252 +02:00 [DBG] Executing DbCommand [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?' (Size = 3)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "MatchResults" ("Id", "Player1Choice", "Player2Choice", "ResultDate", "SessionId", "WinnerName")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-09-29 23:22:01.253 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?' (Size = 3)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "MatchResults" ("Id", "Player1Choice", "Player2Choice", "ResultDate", "SessionId", "WinnerName")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-09-29 23:22:01.253 +02:00 [DBG] A data reader was disposed.
+2024-09-29 23:22:01.253 +02:00 [DBG] Committing transaction.
+2024-09-29 23:22:01.254 +02:00 [DBG] Committed transaction.
+2024-09-29 23:22:01.254 +02:00 [DBG] Closing connection to database 'main' on server 'C:\Users\djurd\source\repos\RPSLSGameService\RPSLSGameServiceAPI\RPSLSGame.db'.
+2024-09-29 23:22:01.254 +02:00 [DBG] Closed connection to database 'main' on server 'RPSLSGame.db'.
+2024-09-29 23:22:01.254 +02:00 [DBG] Disposing transaction.
+2024-09-29 23:22:01.254 +02:00 [DBG] An entity of type 'MatchResult' tracked by 'RPSLSDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-29 23:22:01.254 +02:00 [DBG] An entity of type 'GameSession' tracked by 'RPSLSDbContext' changed state from '"Modified"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-29 23:22:01.254 +02:00 [DBG] SaveChanges completed for 'RPSLSDbContext' with 2 entities written to the database.
+2024-09-29 23:22:01.254 +02:00 [DBG] An entity of type 'GameSession' tracked by 'RPSLSDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-29 23:22:01.254 +02:00 [DBG] SaveChanges starting for 'RPSLSDbContext'.
+2024-09-29 23:22:01.254 +02:00 [DBG] DetectChanges starting for 'RPSLSDbContext'.
+2024-09-29 23:22:01.254 +02:00 [DBG] DetectChanges completed for 'RPSLSDbContext'.
+2024-09-29 23:22:01.254 +02:00 [DBG] Opening connection to database 'main' on server 'RPSLSGame.db'.
+2024-09-29 23:22:01.255 +02:00 [DBG] Opened connection to database 'main' on server 'C:\Users\djurd\source\repos\RPSLSGameService\RPSLSGameServiceAPI\RPSLSGame.db'.
+2024-09-29 23:22:01.255 +02:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2024-09-29 23:22:01.260 +02:00 [DBG] Began transaction with isolation level 'Serializable'.
+2024-09-29 23:22:01.260 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-29 23:22:01.260 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-29 23:22:01.261 +02:00 [DBG] Executing DbCommand [Parameters=[@p2='?', @p0='?', @p1='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "GameSessions" SET "CreatedAt" = @p0, "CurrentState" = @p1
+WHERE "SessionId" = @p2;
+SELECT changes();
+2024-09-29 23:22:01.261 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[@p2='?', @p0='?', @p1='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "GameSessions" SET "CreatedAt" = @p0, "CurrentState" = @p1
+WHERE "SessionId" = @p2;
+SELECT changes();
+2024-09-29 23:22:01.261 +02:00 [DBG] A data reader was disposed.
+2024-09-29 23:22:01.261 +02:00 [DBG] Committing transaction.
+2024-09-29 23:22:01.261 +02:00 [DBG] Committed transaction.
+2024-09-29 23:22:01.261 +02:00 [DBG] Closing connection to database 'main' on server 'C:\Users\djurd\source\repos\RPSLSGameService\RPSLSGameServiceAPI\RPSLSGame.db'.
+2024-09-29 23:22:01.261 +02:00 [DBG] Closed connection to database 'main' on server 'RPSLSGame.db'.
+2024-09-29 23:22:01.261 +02:00 [DBG] Disposing transaction.
+2024-09-29 23:22:01.261 +02:00 [DBG] An entity of type 'GameSession' tracked by 'RPSLSDbContext' changed state from '"Modified"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-29 23:22:01.261 +02:00 [DBG] SaveChanges completed for 'RPSLSDbContext' with 1 entities written to the database.
+2024-09-29 23:22:01.262 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-09-29 23:22:01.262 +02:00 [DBG] No information found on request to perform content negotiation.
+2024-09-29 23:22:01.262 +02:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-09-29 23:22:01.262 +02:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-09-29 23:22:01.262 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-09-29 23:22:01.262 +02:00 [INF] Executing OkObjectResult, writing value of type 'RPSLSGameService.Domain.Models.MultiPlayRoundResponse'.
+2024-09-29 23:22:01.262 +02:00 [INF] Executed action RPSLSGameService.Controllers.GameController.PlayMultiplayer (RPSLSGameServiceAPI) in 47.2706ms
+2024-09-29 23:22:01.262 +02:00 [INF] Executed endpoint 'RPSLSGameService.Controllers.GameController.PlayMultiplayer (RPSLSGameServiceAPI)'
+2024-09-29 23:22:01.262 +02:00 [INF] Finished handling request.
+2024-09-29 23:22:01.262 +02:00 [DBG] 'RPSLSDbContext' disposed.
+2024-09-29 23:22:01.263 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44308/Game/playMulti?sessionId=9110e05c-f8a9-4469-b0a1-a2848cb4e88c application/json 25 - 200 - application/json;+charset=utf-8 47.9593ms
+2024-09-29 23:22:05.858 +02:00 [DBG] HttpMessageHandler expired after 120000ms for client ''
+2024-09-29 23:22:13.217 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44308/Game/scoreboard - -
+2024-09-29 23:22:13.217 +02:00 [INF] Handling request: GET /Game/scoreboard
+2024-09-29 23:22:13.217 +02:00 [DBG] The request path /Game/scoreboard does not match a supported file type
+2024-09-29 23:22:13.217 +02:00 [DBG] The request path /Game/scoreboard does not match a supported file type
+2024-09-29 23:22:13.217 +02:00 [DBG] 1 candidate(s) found for the request path '/Game/scoreboard'
+2024-09-29 23:22:13.217 +02:00 [DBG] Endpoint 'RPSLSGameService.Controllers.GameController.GetScoreboard (RPSLSGameServiceAPI)' with route pattern 'Game/scoreboard' is valid for the request path '/Game/scoreboard'
+2024-09-29 23:22:13.217 +02:00 [DBG] Request matched endpoint 'RPSLSGameService.Controllers.GameController.GetScoreboard (RPSLSGameServiceAPI)'
+2024-09-29 23:22:13.217 +02:00 [INF] Executing endpoint 'RPSLSGameService.Controllers.GameController.GetScoreboard (RPSLSGameServiceAPI)'
+2024-09-29 23:22:13.219 +02:00 [INF] Route matched with {action = "GetScoreboard", controller = "Game"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetScoreboard(System.Threading.CancellationToken) on controller RPSLSGameService.Controllers.GameController (RPSLSGameServiceAPI).
+2024-09-29 23:22:13.219 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-29 23:22:13.219 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-29 23:22:13.219 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-09-29 23:22:13.219 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-29 23:22:13.219 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-09-29 23:22:13.219 +02:00 [DBG] Executing controller factory for controller RPSLSGameService.Controllers.GameController (RPSLSGameServiceAPI)
+2024-09-29 23:22:13.219 +02:00 [DBG] Executed controller factory for controller RPSLSGameService.Controllers.GameController (RPSLSGameServiceAPI)
+2024-09-29 23:22:13.219 +02:00 [DBG] Attempting to bind parameter 'cancellationToken' of type 'System.Threading.CancellationToken' ...
+2024-09-29 23:22:13.219 +02:00 [DBG] Done attempting to bind parameter 'cancellationToken' of type 'System.Threading.CancellationToken'.
+2024-09-29 23:22:13.219 +02:00 [DBG] Attempting to validate the bound parameter 'cancellationToken' of type 'System.Threading.CancellationToken' ...
+2024-09-29 23:22:13.219 +02:00 [DBG] Done attempting to validate the bound parameter 'cancellationToken' of type 'System.Threading.CancellationToken'.
+2024-09-29 23:22:13.221 +02:00 [INF] Entity Framework Core 5.0.17 initialized 'RPSLSDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: MigrationsAssembly=RPSLSGameService.Infrastructure 
+2024-09-29 23:22:13.225 +02:00 [DBG] Compiling query expression: 
+'DbSet<MatchResult>()
+    .OrderByDescending(mr => mr.ResultDate)
+    .Take(__p_0)'
+2024-09-29 23:22:13.229 +02:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<MatchResult>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: MatchResult.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: MatchResult.Player1Choice (RPSLSEnum) Required, 1], [Property: MatchResult.Player2Choice (RPSLSEnum) Required, 2], [Property: MatchResult.ResultDate (DateTime) Required, 3], [Property: MatchResult.SessionId (Guid) Required FK Index, 4], [Property: MatchResult.WinnerName (string) Required MaxLength(100), 5], }
+        SELECT TOP(@__p_0) m.Id, m.Player1Choice, m.Player2Choice, m.ResultDate, m.SessionId, m.WinnerName
+        FROM MatchResults AS m
+        ORDER BY m.ResultDate DESC), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, MatchResult>, 
+    RPSLSGameService.Infrastructure.RPSLSDbContext, 
+    False, 
+    False
+)'
+2024-09-29 23:22:13.229 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-29 23:22:13.229 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-29 23:22:13.229 +02:00 [DBG] Opening connection to database 'main' on server 'RPSLSGame.db'.
+2024-09-29 23:22:13.229 +02:00 [DBG] Opened connection to database 'main' on server 'C:\Users\djurd\source\repos\RPSLSGameService\RPSLSGameServiceAPI\RPSLSGame.db'.
+2024-09-29 23:22:13.229 +02:00 [DBG] Executing DbCommand [Parameters=[@__p_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT "m"."Id", "m"."Player1Choice", "m"."Player2Choice", "m"."ResultDate", "m"."SessionId", "m"."WinnerName"
+FROM "MatchResults" AS "m"
+ORDER BY "m"."ResultDate" DESC
+LIMIT @__p_0
+2024-09-29 23:22:13.230 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT "m"."Id", "m"."Player1Choice", "m"."Player2Choice", "m"."ResultDate", "m"."SessionId", "m"."WinnerName"
+FROM "MatchResults" AS "m"
+ORDER BY "m"."ResultDate" DESC
+LIMIT @__p_0
+2024-09-29 23:22:13.230 +02:00 [DBG] Context 'RPSLSDbContext' started tracking 'MatchResult' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-29 23:22:13.230 +02:00 [DBG] Context 'RPSLSDbContext' started tracking 'MatchResult' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-29 23:22:13.230 +02:00 [DBG] A data reader was disposed.
+2024-09-29 23:22:13.230 +02:00 [DBG] Closing connection to database 'main' on server 'C:\Users\djurd\source\repos\RPSLSGameService\RPSLSGameServiceAPI\RPSLSGame.db'.
+2024-09-29 23:22:13.230 +02:00 [DBG] Closed connection to database 'main' on server 'RPSLSGame.db'.
+2024-09-29 23:22:13.231 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-09-29 23:22:13.231 +02:00 [DBG] No information found on request to perform content negotiation.
+2024-09-29 23:22:13.231 +02:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-09-29 23:22:13.231 +02:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-09-29 23:22:13.231 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-09-29 23:22:13.231 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RPSLSGameService.Domain.Models.MatchResult, RPSLSGameService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-29 23:22:13.234 +02:00 [INF] Executed action RPSLSGameService.Controllers.GameController.GetScoreboard (RPSLSGameServiceAPI) in 15.3325ms
+2024-09-29 23:22:13.234 +02:00 [INF] Executed endpoint 'RPSLSGameService.Controllers.GameController.GetScoreboard (RPSLSGameServiceAPI)'
+2024-09-29 23:22:13.235 +02:00 [INF] Finished handling request.
+2024-09-29 23:22:13.235 +02:00 [DBG] 'RPSLSDbContext' disposed.
+2024-09-29 23:22:13.235 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44308/Game/scoreboard - - - 200 - application/json;+charset=utf-8 18.1292ms
+2024-09-29 23:22:13.235 +02:00 [DBG] Connection ID "18374686510541701230" disconnecting.
+2024-09-29 23:22:15.872 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-29 23:22:15.874 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0069ms - processed: 0 items - remaining: 1 items
+2024-09-29 23:22:25.891 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-29 23:22:25.891 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 1 items
+2024-09-29 23:22:32.432 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44308/Game/resetScoreboard - 0
+2024-09-29 23:22:32.432 +02:00 [DBG] The request has an origin header: 'https://localhost:44308'.
+2024-09-29 23:22:32.432 +02:00 [INF] CORS policy execution successful.
+2024-09-29 23:22:32.432 +02:00 [INF] Handling request: POST /Game/resetScoreboard
+2024-09-29 23:22:32.432 +02:00 [DBG] POST requests are not supported
+2024-09-29 23:22:32.432 +02:00 [DBG] POST requests are not supported
+2024-09-29 23:22:32.432 +02:00 [DBG] 1 candidate(s) found for the request path '/Game/resetScoreboard'
+2024-09-29 23:22:32.432 +02:00 [DBG] Endpoint 'RPSLSGameService.Controllers.GameController.ResetScoreboard (RPSLSGameServiceAPI)' with route pattern 'Game/resetScoreboard' is valid for the request path '/Game/resetScoreboard'
+2024-09-29 23:22:32.432 +02:00 [DBG] Request matched endpoint 'RPSLSGameService.Controllers.GameController.ResetScoreboard (RPSLSGameServiceAPI)'
+2024-09-29 23:22:32.433 +02:00 [INF] Executing endpoint 'RPSLSGameService.Controllers.GameController.ResetScoreboard (RPSLSGameServiceAPI)'
+2024-09-29 23:22:32.435 +02:00 [INF] Route matched with {action = "ResetScoreboard", controller = "Game"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ResetScoreboard(System.Threading.CancellationToken) on controller RPSLSGameService.Controllers.GameController (RPSLSGameServiceAPI).
+2024-09-29 23:22:32.435 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-29 23:22:32.435 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-29 23:22:32.435 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-09-29 23:22:32.435 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-29 23:22:32.435 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-09-29 23:22:32.435 +02:00 [DBG] Executing controller factory for controller RPSLSGameService.Controllers.GameController (RPSLSGameServiceAPI)
+2024-09-29 23:22:32.435 +02:00 [DBG] Executed controller factory for controller RPSLSGameService.Controllers.GameController (RPSLSGameServiceAPI)
+2024-09-29 23:22:32.435 +02:00 [DBG] Attempting to bind parameter 'cancellationToken' of type 'System.Threading.CancellationToken' ...
+2024-09-29 23:22:32.435 +02:00 [DBG] Done attempting to bind parameter 'cancellationToken' of type 'System.Threading.CancellationToken'.
+2024-09-29 23:22:32.435 +02:00 [DBG] Attempting to validate the bound parameter 'cancellationToken' of type 'System.Threading.CancellationToken' ...
+2024-09-29 23:22:32.435 +02:00 [DBG] Done attempting to validate the bound parameter 'cancellationToken' of type 'System.Threading.CancellationToken'.
+2024-09-29 23:22:32.439 +02:00 [INF] Entity Framework Core 5.0.17 initialized 'RPSLSDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: MigrationsAssembly=RPSLSGameService.Infrastructure 
+2024-09-29 23:22:32.440 +02:00 [DBG] Compiling query expression: 
+'DbSet<MatchResult>()'
+2024-09-29 23:22:32.442 +02:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<MatchResult>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: MatchResult.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: MatchResult.Player1Choice (RPSLSEnum) Required, 1], [Property: MatchResult.Player2Choice (RPSLSEnum) Required, 2], [Property: MatchResult.ResultDate (DateTime) Required, 3], [Property: MatchResult.SessionId (Guid) Required FK Index, 4], [Property: MatchResult.WinnerName (string) Required MaxLength(100), 5], }
+        SELECT m.Id, m.Player1Choice, m.Player2Choice, m.ResultDate, m.SessionId, m.WinnerName
+        FROM MatchResults AS m), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, MatchResult>, 
+    RPSLSGameService.Infrastructure.RPSLSDbContext, 
+    False, 
+    False
+)'
+2024-09-29 23:22:32.443 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-29 23:22:32.444 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-29 23:22:32.444 +02:00 [DBG] Opening connection to database 'main' on server 'RPSLSGame.db'.
+2024-09-29 23:22:32.445 +02:00 [DBG] Opened connection to database 'main' on server 'C:\Users\djurd\source\repos\RPSLSGameService\RPSLSGameServiceAPI\RPSLSGame.db'.
+2024-09-29 23:22:32.445 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "m"."Id", "m"."Player1Choice", "m"."Player2Choice", "m"."ResultDate", "m"."SessionId", "m"."WinnerName"
+FROM "MatchResults" AS "m"
+2024-09-29 23:22:32.446 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "m"."Id", "m"."Player1Choice", "m"."Player2Choice", "m"."ResultDate", "m"."SessionId", "m"."WinnerName"
+FROM "MatchResults" AS "m"
+2024-09-29 23:22:32.446 +02:00 [DBG] Context 'RPSLSDbContext' started tracking 'MatchResult' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-29 23:22:32.446 +02:00 [DBG] An entity of type 'MatchResult' tracked by 'RPSLSDbContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-29 23:22:32.448 +02:00 [DBG] Context 'RPSLSDbContext' started tracking 'MatchResult' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-29 23:22:32.448 +02:00 [DBG] An entity of type 'MatchResult' tracked by 'RPSLSDbContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-29 23:22:32.448 +02:00 [DBG] A data reader was disposed.
+2024-09-29 23:22:32.448 +02:00 [DBG] Closing connection to database 'main' on server 'C:\Users\djurd\source\repos\RPSLSGameService\RPSLSGameServiceAPI\RPSLSGame.db'.
+2024-09-29 23:22:32.448 +02:00 [DBG] Closed connection to database 'main' on server 'RPSLSGame.db'.
+2024-09-29 23:22:32.448 +02:00 [DBG] SaveChanges starting for 'RPSLSDbContext'.
+2024-09-29 23:22:32.448 +02:00 [DBG] DetectChanges starting for 'RPSLSDbContext'.
+2024-09-29 23:22:32.449 +02:00 [DBG] DetectChanges completed for 'RPSLSDbContext'.
+2024-09-29 23:22:32.449 +02:00 [DBG] Opening connection to database 'main' on server 'RPSLSGame.db'.
+2024-09-29 23:22:32.449 +02:00 [DBG] Opened connection to database 'main' on server 'C:\Users\djurd\source\repos\RPSLSGameService\RPSLSGameServiceAPI\RPSLSGame.db'.
+2024-09-29 23:22:32.449 +02:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2024-09-29 23:22:32.449 +02:00 [DBG] Began transaction with isolation level 'Serializable'.
+2024-09-29 23:22:32.451 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-29 23:22:32.451 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-29 23:22:32.452 +02:00 [DBG] Executing DbCommand [Parameters=[@p0='?'], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "MatchResults"
+WHERE "Id" = @p0;
+SELECT changes();
+2024-09-29 23:22:32.452 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?'], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "MatchResults"
+WHERE "Id" = @p0;
+SELECT changes();
+2024-09-29 23:22:32.452 +02:00 [DBG] A data reader was disposed.
+2024-09-29 23:22:32.452 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-29 23:22:32.452 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-29 23:22:32.452 +02:00 [DBG] Executing DbCommand [Parameters=[@p0='?'], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "MatchResults"
+WHERE "Id" = @p0;
+SELECT changes();
+2024-09-29 23:22:32.452 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?'], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "MatchResults"
+WHERE "Id" = @p0;
+SELECT changes();
+2024-09-29 23:22:32.452 +02:00 [DBG] A data reader was disposed.
+2024-09-29 23:22:32.452 +02:00 [DBG] Committing transaction.
+2024-09-29 23:22:32.453 +02:00 [DBG] Committed transaction.
+2024-09-29 23:22:32.453 +02:00 [DBG] Closing connection to database 'main' on server 'C:\Users\djurd\source\repos\RPSLSGameService\RPSLSGameServiceAPI\RPSLSGame.db'.
+2024-09-29 23:22:32.454 +02:00 [DBG] Closed connection to database 'main' on server 'RPSLSGame.db'.
+2024-09-29 23:22:32.454 +02:00 [DBG] Disposing transaction.
+2024-09-29 23:22:32.457 +02:00 [DBG] An entity of type 'MatchResult' tracked by 'RPSLSDbContext' changed state from '"Deleted"' to '"Detached"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-29 23:22:32.457 +02:00 [DBG] An entity of type 'MatchResult' tracked by 'RPSLSDbContext' changed state from '"Deleted"' to '"Detached"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-29 23:22:32.457 +02:00 [DBG] SaveChanges completed for 'RPSLSDbContext' with 2 entities written to the database.
+2024-09-29 23:22:32.457 +02:00 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200
+2024-09-29 23:22:32.457 +02:00 [INF] Executed action RPSLSGameService.Controllers.GameController.ResetScoreboard (RPSLSGameServiceAPI) in 22.2407ms
+2024-09-29 23:22:32.457 +02:00 [INF] Executed endpoint 'RPSLSGameService.Controllers.GameController.ResetScoreboard (RPSLSGameServiceAPI)'
+2024-09-29 23:22:32.457 +02:00 [INF] Finished handling request.
+2024-09-29 23:22:32.457 +02:00 [DBG] 'RPSLSDbContext' disposed.
+2024-09-29 23:22:32.457 +02:00 [DBG] Connection ID "18374686506246733871" disconnecting.
+2024-09-29 23:22:32.457 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44308/Game/resetScoreboard - 0 - 200 - - 25.1228ms
+2024-09-29 23:22:35.900 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-29 23:22:35.900 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0026ms - processed: 0 items - remaining: 1 items
+2024-09-29 23:22:45.903 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-29 23:22:45.903 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0022ms - processed: 0 items - remaining: 1 items
+2024-09-29 23:22:55.917 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-29 23:22:55.917 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 1 items
+2024-09-29 23:23:05.932 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-29 23:23:05.932 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0022ms - processed: 0 items - remaining: 1 items
+2024-09-29 23:23:15.947 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-29 23:23:15.947 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 1 items
+2024-09-29 23:23:25.957 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-29 23:23:25.958 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0022ms - processed: 0 items - remaining: 1 items
+2024-09-29 23:23:26.671 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44308/Game/scoreboard - -
+2024-09-29 23:23:26.671 +02:00 [INF] Handling request: GET /Game/scoreboard
+2024-09-29 23:23:26.671 +02:00 [DBG] The request path /Game/scoreboard does not match a supported file type
+2024-09-29 23:23:26.671 +02:00 [DBG] The request path /Game/scoreboard does not match a supported file type
+2024-09-29 23:23:26.671 +02:00 [DBG] 1 candidate(s) found for the request path '/Game/scoreboard'
+2024-09-29 23:23:26.671 +02:00 [DBG] Endpoint 'RPSLSGameService.Controllers.GameController.GetScoreboard (RPSLSGameServiceAPI)' with route pattern 'Game/scoreboard' is valid for the request path '/Game/scoreboard'
+2024-09-29 23:23:26.671 +02:00 [DBG] Request matched endpoint 'RPSLSGameService.Controllers.GameController.GetScoreboard (RPSLSGameServiceAPI)'
+2024-09-29 23:23:26.671 +02:00 [INF] Executing endpoint 'RPSLSGameService.Controllers.GameController.GetScoreboard (RPSLSGameServiceAPI)'
+2024-09-29 23:23:26.671 +02:00 [INF] Route matched with {action = "GetScoreboard", controller = "Game"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetScoreboard(System.Threading.CancellationToken) on controller RPSLSGameService.Controllers.GameController (RPSLSGameServiceAPI).
+2024-09-29 23:23:26.671 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-29 23:23:26.671 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-29 23:23:26.671 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-09-29 23:23:26.672 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-29 23:23:26.672 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-09-29 23:23:26.672 +02:00 [DBG] Executing controller factory for controller RPSLSGameService.Controllers.GameController (RPSLSGameServiceAPI)
+2024-09-29 23:23:26.672 +02:00 [DBG] Executed controller factory for controller RPSLSGameService.Controllers.GameController (RPSLSGameServiceAPI)
+2024-09-29 23:23:26.672 +02:00 [DBG] Attempting to bind parameter 'cancellationToken' of type 'System.Threading.CancellationToken' ...
+2024-09-29 23:23:26.672 +02:00 [DBG] Done attempting to bind parameter 'cancellationToken' of type 'System.Threading.CancellationToken'.
+2024-09-29 23:23:26.672 +02:00 [DBG] Attempting to validate the bound parameter 'cancellationToken' of type 'System.Threading.CancellationToken' ...
+2024-09-29 23:23:26.672 +02:00 [DBG] Done attempting to validate the bound parameter 'cancellationToken' of type 'System.Threading.CancellationToken'.
+2024-09-29 23:23:26.672 +02:00 [INF] Entity Framework Core 5.0.17 initialized 'RPSLSDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: MigrationsAssembly=RPSLSGameService.Infrastructure 
+2024-09-29 23:23:26.673 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-29 23:23:26.673 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-09-29 23:23:26.673 +02:00 [DBG] Opening connection to database 'main' on server 'RPSLSGame.db'.
+2024-09-29 23:23:26.673 +02:00 [DBG] Opened connection to database 'main' on server 'C:\Users\djurd\source\repos\RPSLSGameService\RPSLSGameServiceAPI\RPSLSGame.db'.
+2024-09-29 23:23:26.673 +02:00 [DBG] Executing DbCommand [Parameters=[@__p_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT "m"."Id", "m"."Player1Choice", "m"."Player2Choice", "m"."ResultDate", "m"."SessionId", "m"."WinnerName"
+FROM "MatchResults" AS "m"
+ORDER BY "m"."ResultDate" DESC
+LIMIT @__p_0
+2024-09-29 23:23:26.674 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT "m"."Id", "m"."Player1Choice", "m"."Player2Choice", "m"."ResultDate", "m"."SessionId", "m"."WinnerName"
+FROM "MatchResults" AS "m"
+ORDER BY "m"."ResultDate" DESC
+LIMIT @__p_0
+2024-09-29 23:23:26.674 +02:00 [DBG] A data reader was disposed.
+2024-09-29 23:23:26.674 +02:00 [DBG] Closing connection to database 'main' on server 'C:\Users\djurd\source\repos\RPSLSGameService\RPSLSGameServiceAPI\RPSLSGame.db'.
+2024-09-29 23:23:26.675 +02:00 [DBG] Closed connection to database 'main' on server 'RPSLSGame.db'.
+2024-09-29 23:23:26.675 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-09-29 23:23:26.675 +02:00 [DBG] No information found on request to perform content negotiation.
+2024-09-29 23:23:26.675 +02:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-09-29 23:23:26.675 +02:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-09-29 23:23:26.675 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-09-29 23:23:26.675 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RPSLSGameService.Domain.Models.MatchResult, RPSLSGameService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-29 23:23:26.675 +02:00 [INF] Executed action RPSLSGameService.Controllers.GameController.GetScoreboard (RPSLSGameServiceAPI) in 3.4662ms
+2024-09-29 23:23:26.675 +02:00 [INF] Executed endpoint 'RPSLSGameService.Controllers.GameController.GetScoreboard (RPSLSGameServiceAPI)'
+2024-09-29 23:23:26.675 +02:00 [INF] Finished handling request.
+2024-09-29 23:23:26.675 +02:00 [DBG] 'RPSLSDbContext' disposed.
+2024-09-29 23:23:26.675 +02:00 [DBG] Connection ID "18374686501951766631" disconnecting.
+2024-09-29 23:23:26.675 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44308/Game/scoreboard - - - 200 - application/json;+charset=utf-8 4.3988ms
+2024-09-29 23:23:35.974 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-29 23:23:35.974 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 1 items
+2024-09-29 23:23:45.976 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-29 23:23:45.976 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 1 items
+2024-09-29 23:23:55.977 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-29 23:23:55.977 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0023ms - processed: 0 items - remaining: 1 items
+2024-09-29 23:24:05.990 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-29 23:24:05.990 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0015ms - processed: 0 items - remaining: 1 items
+2024-09-29 23:24:16.004 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-29 23:24:16.004 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0027ms - processed: 0 items - remaining: 1 items
+2024-09-29 23:24:26.009 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-29 23:24:26.009 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0027ms - processed: 0 items - remaining: 1 items
+2024-09-29 23:24:31.318 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44308/Game/choices - -
+2024-09-29 23:24:31.318 +02:00 [INF] Handling request: GET /Game/choices
+2024-09-29 23:24:31.318 +02:00 [DBG] The request path /Game/choices does not match a supported file type
+2024-09-29 23:24:31.318 +02:00 [DBG] The request path /Game/choices does not match a supported file type
+2024-09-29 23:24:31.318 +02:00 [DBG] 1 candidate(s) found for the request path '/Game/choices'
+2024-09-29 23:24:31.318 +02:00 [DBG] Endpoint 'RPSLSGameService.Controllers.GameController.GetChoices (RPSLSGameServiceAPI)' with route pattern 'Game/choices' is valid for the request path '/Game/choices'
+2024-09-29 23:24:31.318 +02:00 [DBG] Request matched endpoint 'RPSLSGameService.Controllers.GameController.GetChoices (RPSLSGameServiceAPI)'
+2024-09-29 23:24:31.318 +02:00 [INF] Executing endpoint 'RPSLSGameService.Controllers.GameController.GetChoices (RPSLSGameServiceAPI)'
+2024-09-29 23:24:31.319 +02:00 [INF] Route matched with {action = "GetChoices", controller = "Game"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetChoices() on controller RPSLSGameService.Controllers.GameController (RPSLSGameServiceAPI).
+2024-09-29 23:24:31.319 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-29 23:24:31.319 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-29 23:24:31.319 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-09-29 23:24:31.319 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-29 23:24:31.319 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-09-29 23:24:31.319 +02:00 [DBG] Executing controller factory for controller RPSLSGameService.Controllers.GameController (RPSLSGameServiceAPI)
+2024-09-29 23:24:31.319 +02:00 [DBG] Executed controller factory for controller RPSLSGameService.Controllers.GameController (RPSLSGameServiceAPI)
+2024-09-29 23:24:31.319 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-09-29 23:24:31.319 +02:00 [DBG] No information found on request to perform content negotiation.
+2024-09-29 23:24:31.319 +02:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-09-29 23:24:31.319 +02:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-09-29 23:24:31.319 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-09-29 23:24:31.319 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectArrayIterator`2[[RPSLSGameService.Utilities.RPSLSEnum, RPSLSGameService.Utilities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[RPSLSGameService.Domain.Models.Choice, RPSLSGameService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-29 23:24:31.319 +02:00 [INF] Executed action RPSLSGameService.Controllers.GameController.GetChoices (RPSLSGameServiceAPI) in 0.6356ms
+2024-09-29 23:24:31.319 +02:00 [INF] Executed endpoint 'RPSLSGameService.Controllers.GameController.GetChoices (RPSLSGameServiceAPI)'
+2024-09-29 23:24:31.319 +02:00 [INF] Finished handling request.
+2024-09-29 23:24:31.320 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44308/Game/choices - - - 200 - application/json;+charset=utf-8 1.6238ms
+2024-09-29 23:24:36.018 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-29 23:24:36.019 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 1 items
+2024-09-29 23:24:46.022 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-29 23:24:46.022 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0026ms - processed: 0 items - remaining: 1 items
+2024-09-29 23:24:47.522 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44308/Game/choice - -
+2024-09-29 23:24:47.522 +02:00 [INF] Handling request: GET /Game/choice
+2024-09-29 23:24:47.522 +02:00 [DBG] The request path /Game/choice does not match a supported file type
+2024-09-29 23:24:47.522 +02:00 [DBG] The request path /Game/choice does not match a supported file type
+2024-09-29 23:24:47.522 +02:00 [DBG] 1 candidate(s) found for the request path '/Game/choice'
+2024-09-29 23:24:47.522 +02:00 [DBG] Endpoint 'RPSLSGameService.Controllers.GameController.GetRandomChoice (RPSLSGameServiceAPI)' with route pattern 'Game/choice' is valid for the request path '/Game/choice'
+2024-09-29 23:24:47.522 +02:00 [DBG] Request matched endpoint 'RPSLSGameService.Controllers.GameController.GetRandomChoice (RPSLSGameServiceAPI)'
+2024-09-29 23:24:47.522 +02:00 [INF] Executing endpoint 'RPSLSGameService.Controllers.GameController.GetRandomChoice (RPSLSGameServiceAPI)'
+2024-09-29 23:24:47.522 +02:00 [INF] Route matched with {action = "GetRandomChoice", controller = "Game"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRandomChoice(System.Threading.CancellationToken) on controller RPSLSGameService.Controllers.GameController (RPSLSGameServiceAPI).
+2024-09-29 23:24:47.522 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-29 23:24:47.522 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-29 23:24:47.522 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-09-29 23:24:47.522 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-29 23:24:47.522 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-09-29 23:24:47.522 +02:00 [DBG] Executing controller factory for controller RPSLSGameService.Controllers.GameController (RPSLSGameServiceAPI)
+2024-09-29 23:24:47.523 +02:00 [DBG] Executed controller factory for controller RPSLSGameService.Controllers.GameController (RPSLSGameServiceAPI)
+2024-09-29 23:24:47.523 +02:00 [DBG] Attempting to bind parameter 'cancellationToken' of type 'System.Threading.CancellationToken' ...
+2024-09-29 23:24:47.523 +02:00 [DBG] Done attempting to bind parameter 'cancellationToken' of type 'System.Threading.CancellationToken'.
+2024-09-29 23:24:47.523 +02:00 [DBG] Attempting to validate the bound parameter 'cancellationToken' of type 'System.Threading.CancellationToken' ...
+2024-09-29 23:24:47.523 +02:00 [DBG] Done attempting to validate the bound parameter 'cancellationToken' of type 'System.Threading.CancellationToken'.
+2024-09-29 23:24:47.523 +02:00 [INF] Start processing HTTP request GET https://codechallenge.boohma.com/random
+2024-09-29 23:24:47.523 +02:00 [INF] Sending HTTP request GET https://codechallenge.boohma.com/random
+2024-09-29 23:24:48.335 +02:00 [INF] Received HTTP response headers after 811.9975ms - 200
+2024-09-29 23:24:48.335 +02:00 [INF] End processing HTTP request after 812.192ms - 200
+2024-09-29 23:24:48.335 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-09-29 23:24:48.335 +02:00 [DBG] No information found on request to perform content negotiation.
+2024-09-29 23:24:48.335 +02:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-09-29 23:24:48.335 +02:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-09-29 23:24:48.335 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-09-29 23:24:48.335 +02:00 [INF] Executing OkObjectResult, writing value of type 'RPSLSGameService.Domain.Models.Choice'.
+2024-09-29 23:24:48.336 +02:00 [INF] Executed action RPSLSGameService.Controllers.GameController.GetRandomChoice (RPSLSGameServiceAPI) in 813.1165ms
+2024-09-29 23:24:48.336 +02:00 [INF] Executed endpoint 'RPSLSGameService.Controllers.GameController.GetRandomChoice (RPSLSGameServiceAPI)'
+2024-09-29 23:24:48.336 +02:00 [INF] Finished handling request.
+2024-09-29 23:24:48.336 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44308/Game/choice - - - 200 - application/json;+charset=utf-8 813.9118ms
+2024-09-29 23:24:56.024 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-29 23:24:56.024 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 1 items
+2024-09-29 23:25:06.039 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-29 23:25:06.040 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0053ms - processed: 0 items - remaining: 1 items
+2024-09-29 23:25:16.049 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-29 23:25:16.049 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0024ms - processed: 0 items - remaining: 1 items
+2024-09-29 23:25:16.211 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44308/Game/play application/json 28
+2024-09-29 23:25:16.211 +02:00 [DBG] The request has an origin header: 'https://localhost:44308'.
+2024-09-29 23:25:16.211 +02:00 [INF] CORS policy execution successful.
+2024-09-29 23:25:16.212 +02:00 [INF] Handling request: POST /Game/play
+2024-09-29 23:25:16.212 +02:00 [DBG] POST requests are not supported
+2024-09-29 23:25:16.212 +02:00 [DBG] POST requests are not supported
+2024-09-29 23:25:16.212 +02:00 [DBG] 1 candidate(s) found for the request path '/Game/play'
+2024-09-29 23:25:16.212 +02:00 [DBG] Endpoint 'RPSLSGameService.Controllers.GameController.PlayRound (RPSLSGameServiceAPI)' with route pattern 'Game/play' is valid for the request path '/Game/play'
+2024-09-29 23:25:16.212 +02:00 [DBG] Request matched endpoint 'RPSLSGameService.Controllers.GameController.PlayRound (RPSLSGameServiceAPI)'
+2024-09-29 23:25:16.212 +02:00 [INF] Executing endpoint 'RPSLSGameService.Controllers.GameController.PlayRound (RPSLSGameServiceAPI)'
+2024-09-29 23:25:16.212 +02:00 [INF] Route matched with {action = "PlayRound", controller = "Game"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PlayRound(RPSLSGameService.Domain.Models.PlayRequest, System.Threading.CancellationToken) on controller RPSLSGameService.Controllers.GameController (RPSLSGameServiceAPI).
+2024-09-29 23:25:16.212 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-29 23:25:16.212 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-09-29 23:25:16.212 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-09-29 23:25:16.212 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-29 23:25:16.212 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-09-29 23:25:16.212 +02:00 [DBG] Executing controller factory for controller RPSLSGameService.Controllers.GameController (RPSLSGameServiceAPI)
+2024-09-29 23:25:16.212 +02:00 [DBG] Executed controller factory for controller RPSLSGameService.Controllers.GameController (RPSLSGameServiceAPI)
+2024-09-29 23:25:16.212 +02:00 [DBG] Attempting to bind parameter 'request' of type 'RPSLSGameService.Domain.Models.PlayRequest' ...
+2024-09-29 23:25:16.213 +02:00 [DBG] Attempting to bind parameter 'request' of type 'RPSLSGameService.Domain.Models.PlayRequest' using the name '' in request data ...
+2024-09-29 23:25:16.213 +02:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-09-29 23:25:16.213 +02:00 [DBG] JSON input formatter succeeded, deserializing to type 'RPSLSGameService.Domain.Models.PlayRequest'
+2024-09-29 23:25:16.213 +02:00 [DBG] Done attempting to bind parameter 'request' of type 'RPSLSGameService.Domain.Models.PlayRequest'.
+2024-09-29 23:25:16.213 +02:00 [DBG] Done attempting to bind parameter 'request' of type 'RPSLSGameService.Domain.Models.PlayRequest'.
+2024-09-29 23:25:16.213 +02:00 [DBG] Attempting to validate the bound parameter 'request' of type 'RPSLSGameService.Domain.Models.PlayRequest' ...
+2024-09-29 23:25:16.213 +02:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'RPSLSGameService.Domain.Models.PlayRequest'.
+2024-09-29 23:25:16.213 +02:00 [DBG] Attempting to bind parameter 'cancellationToken' of type 'System.Threading.CancellationToken' ...
+2024-09-29 23:25:16.213 +02:00 [DBG] Done attempting to bind parameter 'cancellationToken' of type 'System.Threading.CancellationToken'.
+2024-09-29 23:25:16.213 +02:00 [DBG] Attempting to validate the bound parameter 'cancellationToken' of type 'System.Threading.CancellationToken' ...
+2024-09-29 23:25:16.213 +02:00 [DBG] Done attempting to validate the bound parameter 'cancellationToken' of type 'System.Threading.CancellationToken'.
+2024-09-29 23:25:16.213 +02:00 [INF] Executing game round for player choice: "Rock".
+2024-09-29 23:25:16.213 +02:00 [INF] Start processing HTTP request GET https://codechallenge.boohma.com/random
+2024-09-29 23:25:16.213 +02:00 [INF] Sending HTTP request GET https://codechallenge.boohma.com/random
+2024-09-29 23:25:16.384 +02:00 [INF] Received HTTP response headers after 170.6423ms - 200
+2024-09-29 23:25:16.384 +02:00 [INF] End processing HTTP request after 170.854ms - 200
+2024-09-29 23:25:16.384 +02:00 [INF] Computer choice: "Rock".
+2024-09-29 23:25:16.384 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-09-29 23:25:16.384 +02:00 [DBG] No information found on request to perform content negotiation.
+2024-09-29 23:25:16.384 +02:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-09-29 23:25:16.384 +02:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-09-29 23:25:16.384 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-09-29 23:25:16.384 +02:00 [INF] Executing OkObjectResult, writing value of type 'RPSLSGameService.Domain.Models.PlayRoundResponse'.
+2024-09-29 23:25:16.385 +02:00 [INF] Executed action RPSLSGameService.Controllers.GameController.PlayRound (RPSLSGameServiceAPI) in 172.3215ms
+2024-09-29 23:25:16.385 +02:00 [INF] Executed endpoint 'RPSLSGameService.Controllers.GameController.PlayRound (RPSLSGameServiceAPI)'
+2024-09-29 23:25:16.385 +02:00 [INF] Finished handling request.
+2024-09-29 23:25:16.385 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44308/Game/play application/json 28 - 200 - application/json;+charset=utf-8 173.3784ms
+2024-09-29 23:25:26.060 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-29 23:25:26.060 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0023ms - processed: 0 items - remaining: 1 items
+2024-09-29 23:25:36.068 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-29 23:25:36.068 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 1 items
+2024-09-29 23:25:46.076 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-29 23:25:46.076 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 1 items
+2024-09-29 23:25:56.090 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-29 23:25:56.090 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0025ms - processed: 0 items - remaining: 1 items
+2024-09-29 23:26:06.095 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-29 23:26:06.095 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0108ms - processed: 0 items - remaining: 1 items
+2024-09-29 23:26:16.096 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-29 23:26:16.096 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0011ms - processed: 0 items - remaining: 1 items
+2024-09-29 23:26:26.100 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-29 23:26:26.100 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 1 items
+2024-09-29 23:26:36.110 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-29 23:26:36.110 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0015ms - processed: 0 items - remaining: 1 items
+2024-09-29 23:26:46.121 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2024-09-29 23:26:46.121 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0013ms - processed: 0 items - remaining: 1 items
+2024-09-29 23:26:47.530 +02:00 [DBG] HttpMessageHandler expired after 120000ms for client ''
+2024-09-29 23:26:56.136 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2024-09-29 23:26:56.136 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0015ms - processed: 0 items - remaining: 2 items
+2024-09-29 23:27:06.141 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2024-09-29 23:27:06.141 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0015ms - processed: 0 items - remaining: 2 items
+2024-09-29 23:27:16.142 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2024-09-29 23:27:16.142 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0013ms - processed: 0 items - remaining: 2 items
+2024-09-29 23:27:26.147 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2024-09-29 23:27:26.147 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0015ms - processed: 0 items - remaining: 2 items
+2024-09-29 23:27:36.151 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2024-09-29 23:27:36.151 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0021ms - processed: 0 items - remaining: 2 items
+2024-09-29 23:27:46.166 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2024-09-29 23:27:46.166 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0015ms - processed: 0 items - remaining: 2 items
+2024-09-29 23:27:56.184 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2024-09-29 23:27:56.184 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0027ms - processed: 0 items - remaining: 2 items
+2024-09-29 23:28:06.206 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2024-09-29 23:28:06.206 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0024ms - processed: 0 items - remaining: 2 items
+2024-09-29 23:28:16.211 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2024-09-29 23:28:16.211 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0059ms - processed: 0 items - remaining: 2 items
+2024-09-29 23:28:26.215 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2024-09-29 23:28:26.215 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 2 items
+2024-09-29 23:28:36.242 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2024-09-29 23:28:36.242 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0014ms - processed: 0 items - remaining: 2 items
+2024-09-29 23:28:46.249 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2024-09-29 23:28:46.249 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 2 items
+2024-09-29 23:28:56.265 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2024-09-29 23:28:56.265 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0019ms - processed: 0 items - remaining: 2 items
+2024-09-29 23:29:06.286 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2024-09-29 23:29:06.286 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0021ms - processed: 0 items - remaining: 2 items
+2024-09-29 23:29:16.296 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2024-09-29 23:29:16.296 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0016ms - processed: 0 items - remaining: 2 items
+2024-09-29 23:29:26.308 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2024-09-29 23:29:26.308 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0015ms - processed: 0 items - remaining: 2 items
+2024-09-29 23:29:36.335 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2024-09-29 23:29:36.335 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0025ms - processed: 0 items - remaining: 2 items
+2024-09-29 23:29:46.349 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2024-09-29 23:29:46.349 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 2 items
+2024-09-29 23:29:56.355 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2024-09-29 23:29:56.355 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 2 items
+2024-09-29 23:30:06.377 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2024-09-29 23:30:06.378 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 2 items
+2024-09-29 23:30:16.387 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2024-09-29 23:30:16.388 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 2 items
+2024-09-29 23:30:26.404 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2024-09-29 23:30:26.404 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0016ms - processed: 0 items - remaining: 2 items
+2024-09-29 23:30:36.423 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2024-09-29 23:30:36.423 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 2 items
+2024-09-29 23:30:46.433 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2024-09-29 23:30:46.433 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 2 items
+2024-09-29 23:30:56.454 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2024-09-29 23:30:56.454 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0019ms - processed: 0 items - remaining: 2 items
+2024-09-29 23:31:06.470 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2024-09-29 23:31:06.470 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 2 items
+2024-09-29 23:31:16.472 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2024-09-29 23:31:16.472 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0014ms - processed: 0 items - remaining: 2 items
+2024-09-29 23:31:26.492 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2024-09-29 23:31:26.492 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0021ms - processed: 0 items - remaining: 2 items
+2024-09-29 23:31:36.500 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2024-09-29 23:31:36.500 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 2 items
+2024-09-29 23:31:46.506 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2024-09-29 23:31:46.506 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 2 items
+2024-09-29 23:31:56.516 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2024-09-29 23:31:56.517 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 2 items
+2024-09-29 23:32:06.523 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2024-09-29 23:32:06.523 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 2 items
+2024-09-29 23:32:16.524 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2024-09-29 23:32:16.524 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 2 items
+2024-09-29 23:32:26.538 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2024-09-29 23:32:26.539 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0022ms - processed: 0 items - remaining: 2 items
+2024-09-29 23:32:36.553 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2024-09-29 23:32:36.553 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0013ms - processed: 0 items - remaining: 2 items
+2024-09-29 23:32:46.555 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2024-09-29 23:32:46.555 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0022ms - processed: 0 items - remaining: 2 items
+2024-09-29 23:32:56.559 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2024-09-29 23:32:56.559 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0014ms - processed: 0 items - remaining: 2 items
+2024-09-29 23:33:06.581 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2024-09-29 23:33:06.581 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0022ms - processed: 0 items - remaining: 2 items
+2024-09-29 23:33:16.595 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2024-09-29 23:33:16.595 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0019ms - processed: 0 items - remaining: 2 items
+2024-09-29 23:33:26.605 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2024-09-29 23:33:26.606 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 2 items
+2024-09-29 23:33:36.627 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2024-09-29 23:33:36.627 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0016ms - processed: 0 items - remaining: 2 items
+2024-09-29 23:33:46.632 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2024-09-29 23:33:46.632 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 2 items
+2024-09-29 23:33:56.646 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2024-09-29 23:33:56.647 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 2 items
+2024-09-29 23:34:06.646 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2024-09-29 23:34:06.646 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 2 items
+2024-09-29 23:34:16.648 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2024-09-29 23:34:16.649 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0014ms - processed: 0 items - remaining: 2 items
+2024-09-29 23:34:26.662 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2024-09-29 23:34:26.662 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0025ms - processed: 0 items - remaining: 2 items
+2024-09-29 23:34:36.687 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2024-09-29 23:34:36.687 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 2 items
+2024-09-29 23:34:46.694 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2024-09-29 23:34:46.694 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0019ms - processed: 0 items - remaining: 2 items
+2024-09-29 23:34:56.698 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2024-09-29 23:34:56.698 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0021ms - processed: 0 items - remaining: 2 items
+2024-09-29 23:35:06.721 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2024-09-29 23:35:06.721 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 2 items
+2024-09-29 23:35:16.724 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2024-09-29 23:35:16.725 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0014ms - processed: 0 items - remaining: 2 items
+2024-09-29 23:35:26.729 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2024-09-29 23:35:26.729 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0022ms - processed: 0 items - remaining: 2 items
+2024-09-29 23:35:36.746 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2024-09-29 23:35:36.746 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0015ms - processed: 0 items - remaining: 2 items
+2024-09-29 23:35:46.753 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2024-09-29 23:35:46.754 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0015ms - processed: 0 items - remaining: 2 items
+2024-09-29 23:35:56.757 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2024-09-29 23:35:56.757 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 2 items
+2024-09-29 23:36:06.769 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2024-09-29 23:36:06.769 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 2 items
