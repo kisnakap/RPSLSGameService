@@ -32,7 +32,8 @@ namespace RPSLSGameService.IntegrationTests.Utilities
                     var db = scopedServices.GetRequiredService<RPSLSDbContext>();
                     var logger = scopedServices.GetRequiredService<ILogger<CustomWebApplicationFactory<TStartup>>>();
 
-                    db.Database.EnsureCreated(); // Ensure the database is created.
+                    // Apply migrations to the database.
+                    db.Database.Migrate();
 
                     try
                     {
